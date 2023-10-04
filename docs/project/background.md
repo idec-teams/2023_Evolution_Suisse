@@ -15,3 +15,8 @@ Among the phytobacteria, Pseudomonas syringae ranks as the scientifically and ec
 Here I would detail CERK1 quite a bit more. As well as AvrPtoB. Maybe do a fun: "Our players" part.
 
 ![Fig_1_A](https://github.com/idec-teams/2023_Evolution_Suisse/assets/91744358/0285e8de-6b6c-4146-ad1c-1590f4acb931)
+
+
+Yeast two-hybrid part
+
+![Y2H_explained_basic](https://github.com/idec-teams/2023_Evolution_Suisse/assets/91744358/2bd1e4d1-b723-4df0-9315-d2fe0d7069d1)
