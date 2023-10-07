@@ -41,3 +41,18 @@ The International Directed Evolution Competition (iDEC)[^1] is an international 
 [^2]:
     This is not a real citation.  
     Multiple line footnote is supported.
+
+## Collapsible sections
+<details>
+  <summary>Click me</summary>
+
+ Main text
+</details>
+
+## Links to pages 
+
+[Link text](team.md)
+
+
+
+
