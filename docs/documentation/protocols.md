@@ -1,4 +1,4 @@
-# Yeast transformation with PEG LiAc 
+## Yeast transformation with PEG LiAc 
 This protocol is modified from the standard protocol: 
 
 Gietz RD, Woods RA. Transformation of yeast by lithium acetate/single-stranded carrier DNA/polyethylene glycol method. Methods Enzymol. 2002;350:87-96.   
@@ -36,7 +36,7 @@ doi: 10.1016/s0076-6879(02)50957-5. PMID: 12073338.
 
 
 
-# Transformation into E. Coli (»1hour)
+## Transformation into E. Coli (»1hour)
  
 1. 	Take eppis with 50ul E. Coli culture (main lab, -80°C, bottom middle, DH10B, red lid).
 2. 	Thaw on ice (use white box, ice machine is in the room that connects two hallways, after the PCR room)
@@ -52,7 +52,7 @@ doi: 10.1016/s0076-6879(02)50957-5. PMID: 12073338.
 11.  Label plate at the bottom and put them at 37°C upside-down in the incubator.
 
 
-# Y2H plate assay – the quicker version
+## Y2H plate assay – the quicker version
 1. Have the plates with the transformed yeast ready, they should have nice colonies.
 2. Take a 96-well PCR plate and add 30-40 μL of MQ water to each well, with one well per sample. Save yourself time and energy by using a multi-channel which can be found either at the incubators in our room, or in the middle of the next room, close to the door.
 3. For each plate take a tip and pick around 4-5 medium sized colonies (all of them on the same tip). The number of colonies depends on the volume of water used so for 30-40 μL, 4-5 is enough.
@@ -66,7 +66,7 @@ doi: 10.1016/s0076-6879(02)50957-5. PMID: 12073338.
 11. Once all the dilutions are prepared, plate the yeast using a multichannel, plating 5 μL of each sample. Make sure that all the samples are aligned, you can position the PRC plate bellow the medium plate to act as a guide.
 12. Once the yeast are plated, let the plates dry, collect and grow in a static incubator at 28 °C for 2-3 days. 
 
-# Transformation to Agrobacteria
+## Transformation to Agrobacteria
 
 
 
@@ -86,7 +86,7 @@ doi: 10.1016/s0076-6879(02)50957-5. PMID: 12073338.
 14. Incubate at 28°C.
 15. Rinse cuvettes well with tap water and then leave them in a beaker of ethanol for a while and then dry them.
 
-# Plant Transformation Using Agrobacterium Protocol
+## Plant Transformation Using Agrobacterium Protocol
 
 
 Materials:
@@ -134,7 +134,7 @@ Procedure:
    - Fill the syringe with the Agrobacterium culture.
    - Press the syringe into the underside of the plant leaf while using a finger to press against the top side of the leaf for efficient infiltration.
 
-# Golden Gate cloning 
+## Golden Gate cloning 
 
 The enzymes are found in the yellow
 Use online molar ratio calculator:
@@ -162,7 +162,7 @@ The only thing you realistically change is the number of cycles, if something is
 
 
 
-# Digestion/Ligation 
+## Digestion/Ligation 
 
  
 |  | 20ul System |
@@ -187,7 +187,7 @@ Digestion:
  
  
  
-# ROS burst assay
+## ROS burst assay
 
 1. Preparation of Leaf Disks:
    - Cut leaf disks from Nicotiana benthamiana plants.
@@ -201,7 +201,7 @@ Digestion:
   - Place the container in the Tecan spark  machine  and measure luminescence for around 45  minutes. Record the data as total counts over the 45-minute period. 
 
 
-# Flow Cytometry 
+## Flow Cytometry 
 
 1. Colony Preparation:
   - Select six colonies from each group.
@@ -220,7 +220,7 @@ Digestion:
   - Perform a one-way ANOVA with Dunnett’s posthoc test to assess the differences between sample fluorescence means.
 
 
-# Error-Prone PCR Protocol:
+## Error-Prone PCR Protocol:
 
 1. Polymerase Preparation: Prepare GoTaq polymerase according to the corresponding protocol provided by the manufacturer. 
 2. Mutation Rate Calculation: Calculate the mutation rates using the Thermofisher fidelity calculator to predict a single point mutation across the CERK1 sequence. 
@@ -231,7 +231,7 @@ Digestion:
 
 
 
-# Virus-Induced Gene Silencing (VIGS) Protocol: 
+## Virus-Induced Gene Silencing (VIGS) Protocol: 
 
 1. Agrobacteria Transformation: Transform electrocompetent agrobacteria as previously described with either pTRV1 or pTRV2-CERK1 vectors. Culture Preparation: Recover and culture the transformed bacteria overnight as previously described. 
 2. Culture Adjustment: The following day, adjust the cultures to an OD600 of 2.0. 
