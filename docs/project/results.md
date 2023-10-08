@@ -93,7 +93,7 @@ We then redid the assay by plating the yeast that have just been transformed wit
 
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
-Table 1. Comparison of TRUST-rY2H to previous methods 
+**Table 1.** Comparison of TRUST-rY2H to previous methods 
 | | System avoids truncations|Single step selection | Protein of interest can be fused to both the activating domain and DNA binding  domain | Compatible with membrane systems (split ubiquitin system) |
 | --- | --- | --- | --- | --- |
 | **Original rY2H**| - | - | - | + |
