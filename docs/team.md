@@ -1,4 +1,5 @@
 # Our team
+
 <figure markdown>
 ![Julien](img/team/fotoshoot_reduced/Julien.jpg){: style="height:375px;width:300px"}
 <figcaption>Away... it's anyway past his bedtime</figcaption>

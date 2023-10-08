@@ -14,6 +14,8 @@ theme:
 
   features:
     - navigation.sections
+    - navigation.instant
+    - navigation.tabs
 
 plugins:
   - glightbox
@@ -50,12 +52,14 @@ copyright: Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Ev
 
   
 nav:
-  - Home: index.md
-  - Team: team.md
   - Project:
+      - Overview: index.md
       - Background: project/background.md
       - Results: project/results.md
+      - Outlook: project/outlooks.md
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab notebook: documentation/notebook.md
+  - Report: report.pdf
+  - Team: team.md
   - Some useful features: useful_features.md
