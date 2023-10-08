@@ -35,6 +35,9 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js
   - javascripts/tables.js
 
+extra_css:
+  - stylesheets/extra.css
+
 edit_uri: blob/main/docs/
 
 repo_url: https://github.com/idec-teams/2023_Evolution_Suisse
