@@ -6,10 +6,9 @@ With a rising global population and greater weather variability due to climate c
 
 <figure markdown>
 ![Figure1](Background_figures/Temperatures_rising_figure.png)
-<figcaption>IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry, and ecosystems.</figcaption>
+<figcaption>**Figure 1.** IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry, and ecosystems.</figcaption>
 </figure>
 
-![Figure1](Background_figures/Temperatures_rising_figure.png)
 
 These diseases negatively impact crop yield and quality, posing a substantial challenge for the agricultural sector (Martins et al., 2018; Savary et al., 2017), leading to an economic burden on agricultural economies and higher food prices.
 The spread of plant diseases also leads to increased use of chemical pesticides, which is detrimental to soil health, water quality, and biodiversity. This makes the challenges for sustainable agriculture even tougher (Gunstone et al., 2021). 
@@ -18,7 +17,11 @@ For these reasons, developing crops with enhanced resistance to pathogens is ind
 
 
 ## Plant immunity
-![Figure2](docs/img/Fig_1_A_1.png)
+<figure markdown>
+![Figure2](Background_figures/Fig_1_A_1.png)
+<figcaption>**Figure 2.** Placehodler name</figcaption>
+</figure>
+
 
 Plant innate immunity relies on pattern recognition receptors (PRRs), membrane proteins that detect potential pathogens. They do this by recognizing specific molecules from pathogens, the so-called pathogen-associated molecular patterns (PAMPs). Examples of PAMPs include flg22, a 22-amino-acid peptide from flagellin (the building block of flagella) of bacteria, and peptidoglycan and chitin from bacterial and fungal cell walls, respectively.
 Upon detection of PAMPs, the PRRs trigger a defensive response within the plant to halt the pathogen's progression and spread (Boutrot & Zipfel, 2017; Zipfel, 2014). The immune response proceeds progressively, through multiple different pathways, depending on the sensed threat (Boller & Felix, 2009). The start of the response is characterised by changing ion fluxes, considerable production of reactive oxygen species (ROS), activation of the mitogen-activated protein kinase (MAPK) pathway, and the subsequent phosphorylation cascades. Out of these early responses, the ROS burst is of special importance as it can be easily detected and measured using luminol’s H2O2-dependent luminescence. Later stages of the immune response are mainly characterized by the production of the stress hormone ethylene, immune gene activation, and callose deposition.
@@ -27,9 +30,25 @@ Phytobacteria can evade this immune response by introducing virulence proteins, 
 Among the different phytobacteria, Pseudomonas syringae ranks as the most devastating bacterial pathogen worldwide (Mansfield et al., 2012). This pathogen produces a well-characterised effector called AvrPtoB, which targets the PRR CERK1, leading to the inhibition of the plant immune response. This receptor is effective at detecting chitin and peptidoglycan, originating from fungi and bacteria, respectively, providing a broad range of defensive recognition from multiple kingdoms (Ao et al., 2014). The disruption of CERK1 function leads to a ten-fold increase in pathogen proliferation, highlighting its crucial function in plant immunity. 
 We decided to tackle these problems using directed evolution to evolve plant receptors and make them  less prone to diseases. With this we also hope to establish directed evolution as a viable method to disrupt protein-protein interactions across all realms.
 
+
+<figure markdown>
+![Figure3](Background_figures/Kiwi.png)
+<figcaption>**Figure 3.** *S. Loreti, Bacterial cancer of kiwifruit, 2018.*</figcaption>
+</figure>
+
+<figure markdown>
+![Figure4](Background_figures/Tomato_1.png)
+<figcaption>**Figure 4.** *Gerald Holmes, Tomato bacterial speck, 2000.*</figcaption>
+</figure>
+
+<figure markdown>
+![Figure5](Background_figures/Tomato_2.png)
+<figcaption>**Figure 5.** *Greg Martin, A tomato with bacterial speck, 2016.*</figcaption>
+</figure>
+
 ![Picture4](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/bee7d26b-3e77-4d95-9161-d289a5964811)
 
-*S. Loreti, Bacterial canker of kiwifruit, 2018.*
+*S. Loreti, Bacterial cancer of kiwifruit, 2018.*
 ![Picture5](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/c25c3267-5ef4-4926-8d28-b74485deda13)
 
 *Gerald Holmes, Tomato bacterial speck, 2000.*
