@@ -18,3 +18,59 @@ I would present MYTH adaptation right bellow ours just to keep them in the same 
 
 
 <sup>1</sup> In theory, epPCR causes both types of mutations, albeit insertions and deletions are produced at much lower rate (doi: 10.1093/nar/gkh315). 
+
+
+
+<figure markdown>
+![Figure1](Report_figures/Figure_1.png)
+<figcaption> </figcaption>
+</figure>
+
+
+<figure markdown>
+![Figure2](Report_figures/Figure_2.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure3](Report_figures/Figure_3.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure4](Report_figures/Figure_4.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure5](Report_figures/Figure_5.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure6](Report_figures/Figure_6.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure7](Report_figures/Figure_7.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure8](Report_figures/Figure_8.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure9](Report_figures/Figure_9.png)
+<figcaption> </figcaption>
+</figure>
+
+<figure markdown>
+![Figure10](Report_figures/Figure_10.png)
+<figcaption> </figcaption>
+</figure>
+
+
+
