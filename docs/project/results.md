@@ -95,13 +95,14 @@ We then redid the assay by plating the yeast that have just been transformed wit
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
 Table 1. Comparison of TRUST-rY2H to previous methods 
-||System avoids truncations|Single step selection|Protein of interest can be fused to both the activating domain and DNA binding  domain|Compatible with membrane systems (split ubiquitin system)|
-|**Original rY2H**|-|-|-|+|
-|**rY2H**(Vidal et al.) |+|-|+|-|
-|**rY2H** (Leanna et al.) |-|-|+|-|
-|**rDY2H** (Vincent et al.) |+|+|-|-|
-|**One-plus Two Hybrid system**(Kim et al.) |+|-|-|-|
-|**TRUST-rY2H**(Kim et al.) |+|+|+|+|
+| | System avoids truncations|Single step selection | Protein of interest can be fused to both the activating domain and DNA binding  domain | Compatible with membrane systems (split ubiquitin system) |
+| --- | --- | --- | --- | --- |
+| **Original rY2H**| - | - | - | + |
+| **rY2H**(Vidal et al.) | + | - | + | - |
+| **rY2H** (Leanna et al.) | - | - | + | - |
+| **rDY2H** (Vincent et al.) |+ | + | - | - |
+| **One-plus Two Hybrid system**(Kim et al.) | + | - | - | - |
+| **TRUST-rY2H**(Kim et al.) | + | + | + | + |
 
 **Conclusion:** Fusing BleoR to proteins along with a self-cleaving peptide has minimal effect on the protein interaction and could, with further optimisation, provide adequate truncation resistance.
 
