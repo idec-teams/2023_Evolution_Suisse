@@ -1,27 +1,37 @@
 # Background
 
 
-Plant pathogens pose a global burden on agriculture, reducing harvest by up to 40% (American Phytopathological Society, 2023). Diseased crops not only lead to reduced yield and quality but ultimately impact the economy and environment (Martins et al., 2018; Savary et al., 2017). Currently, pesticides are used to protect crops, however, they negatively impact the environment and pose health risks to humans (Pathak et al., 2022). Therefore, developing pathogen-resistant crops remains a challenge that demands innovative solutions and research. 
-This part might use some more numbers and genral talk about the problem.
+## Threats to global food supply
+With a rising global population and greater weather variability due to climate change, food insecurity has become increasingly problematic. Recent estimates by the American Phytopathological Society (2023) indicate a global reduction of up to 40% in crop yields due to pests and diseases. Another study shows the impact on specific crops, revealing wheat losses of 10-28%, rice losses of 25-41%, maize losses of 20-41%, potato losses of 8-21%, and soybean losses of 11-32% attributed to pathogens and pests (Savary et al., 2017).
+
+ IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry and ecosystems. 
+These diseases negatively impact crop yield and quality, posing a substantial challenge for the agricultural sector (Martins et al., 2018; Savary et al., 2017), leading to an economic burden on agricultural economies and higher food prices.
+The spread of plant diseases also leads to increased use of chemical pesticides, which is detrimental to soil health, water quality, and biodiversity. This makes the challenges for sustainable agriculture even tougher (Gunstone et al., 2021). 
+
+For these reasons, developing crops with enhanced resistance to pathogens is indispensable to ensure food and economic stability. Creating more resistant crops requires a multi-disciplinary approach, including advances in genetic engineering and deepening knowledge of plant-pathogen interactions. 
+
+
+## Plant immunity
+
+Plant innate immunity relies on pattern recognition receptors (PRRs), membrane proteins that detect potential pathogens. They do this by recognizing specific molecules from pathogens, the so-called pathogen-associated molecular patterns (PAMPs). Examples of PAMPs include flg22, a 22-amino-acid peptide from flagellin (the building block of flagella) of bacteria, and peptidoglycan and chitin from bacterial and fungal cell walls, respectively.
+Upon detection of PAMPs, the PRRs trigger a defensive response within the plant to halt the pathogen's progression and spread (Boutrot & Zipfel, 2017; Zipfel, 2014). The immune response proceeds progressively, through multiple different pathways, depending on the sensed threat (10.1146/annurev.arplant.57.032905.105346). The start of the response is characterised by changing ion fluxes, considerable production of reactive oxygen species (ROS), activation of the mitogen-activated protein kinase (MAPK) pathway and the subsequent phosphorylation cascades. Out of these early responses, the ROS burst is of special importance as it can be easily detected and measured using luminol’s H2O2-dependent luminescence. Later stages of the immune response are mainly characterized by production of the stress hormone ethylene, immune gene activation, and callose deposition.
+Phytobacteria can evade this immune response by introducing virulence proteins, called effectors, into plant cells via different secretion systems. The secretion systems function like elaborate hypodermic needles, injecting pathogen effectors into the plant cell, sabotaging the immune response from within. The mechanisms of effector action are very diverse (Macho & Zipfel, 2015) : HopAO1 dephosphorylates its target PRR, inactivating it in the process;  AvrPto binds its target PRR and prevents it from carrying out its normal function; AvrPphB acts as a targeted protease chopping its PRR target into pieces; AvrPtoB acts as an ubiquitin ligase, hijacking the plant protein degradation system target and destroy its own PRR.
+
+Among the different phytobacteria, Pseudomonas syringae ranks as the most devastating bacterial pathogen worldwide (Mansfield et al., 2012). This pathogen produces a well-characterised effector called AvrPtoB, which targets the PRR CERK1, leading to the inhibition of the plant immune response. This receptor is effective at detecting chitin and peptidoglycan, originating from fungi and bacteria, respectively, providing a broad range of defensive recognition from multiple kingdoms (Ao et al., 2014). The disruption of CERK1 function leads to a ten-fold increase in pathogen proliferation, highlighting its crucial function in plant immunity. 
+We decided to tackle these problems using directed evolution to evolve plant receptors and make them  less prone to diseases. With this we also hope to establish directed evolution as a viable method to disrupt protein-protein interactions across all realms.
+
+S. Loreti, Bacterial canker of kiwifruit, 2018.
+
+Gerald Holmes, Tomato bacterial speck, 2000.
+
+
+Greg Martin, A tomato with bacterial speck, 2016.
 
 
 
-Plant innate immunity relies on pattern recognition receptors (PRRs) that detect pathogen-associated molecular patterns (PAMPs) (Boutrot & Zipfel, 2017; Zipfel, 2014). Phytobacteria evade this immune response by introducing virulence proteins called effectors into plant cells via e.g. the type III secretion system to promote pathogenesis (Macho & Zipfel, 2015). As a result, residues on the interaction interfaces find themselves under high selective pressure, facilitating the fixation of interaction-disrupting mutations (Bishop et al., 2000; Bishop et al., 2005; Shabab et el., 2008).
-
-This part could be more informative about PRRs in general, what they can do. 
-
-Among the phytobacteria, Pseudomonas syringae ranks as the scientifically and economically most important bacterial pathogen worldwide (Mansfield et al., 2012). Strains of P. syringae are categorised into at least 50 pathovars and express a variety of effector proteins. One well-characterised effector of P. syringae is AvrPtoB. Besides P. syringae, members of the AvrPtoB protein family are also present in many other strains of Pseudomonas, and at least two other genera of bacterial phytopathogens, Xanthomonas and Erwinia (Oguiza & Asensio, 2005). In Arabidopsis thaliana, AvrPtoB targets the receptor kinase CERK1, which is responsible for chitin elicitor signalling and resistance to fungal and bacterial pathogens (Gimenez-Ibanez et al., 2009).  CERK1 consists of an extracellular domain with three tandem-LysM motifs, a transmembrane domain, a juxtamembrane domain, and an intracellular Ser/Thr kinase domain (Yang et al., 2022). AvrPtoB can repress chitin responses and overcome CERK1-mediated resistance by inhibiting the kinase activity and targeting CERK1 for degradation (Gimenez-Ibanez et al., 2009).
-
-Here I would detail CERK1 quite a bit more. As well as AvrPtoB. Maybe do a fun: "Our players" part.
-
-![Fig_1_A](https://github.com/idec-teams/2023_Evolution_Suisse/assets/91744358/0285e8de-6b6c-4146-ad1c-1590f4acb931)
 
 
 
 
-Yeast two-hybrid (Y2H) is the oldest and one of the most popular genetic methods used to identify protein protein interactions in live yeast cells (https://doi.org/10.1038/340245a0). The crux of the method depends on the fact that transcription factors are modular in nature. Namely, they contain distinct activation (AD) and DNA-binding domains (DBD), responsible for activating transcription and binding promoter DNA sequences, respectively. However, crucial to the method, the AD cannot activate transcription unless it is physically associated with the DBD. One can exploit this by fusing AD to protein A (also called prey in the field) and DBD to protein B (also called bait). In case proteins A and B interact with each other, they will bring the AD and DBD close to one another, allowing for them to physically associate. Physically associating AD and DBD are then capable of activating a transcription of a select reporter gene, which contains the DBD binding motif (also called upstream activating sequence or UAS) within its promoter sequence. The reporter gene refers to a gene whose transcription has easily detectable results. For example, the activation of LacZ causes normally white yeast colonies to turn blue when grown on media containing X-gal, while the activation of Ura3 allows yeast to grow on media lacking uracil, an essential metabolite. What we described is the so called forward direction in the Y2H system which is, again, designed to detect protein-protein interactions. 
-
-In theory, there is nothing preventing the use of a negative readout from the reporter gene as an indication of no interaction between two proteins. It was precisely this thinking that led to the development of the first reverse yeast two-hybrid (rY2H) method, aimed at selecting against protein-protein interactions (doi: 10.1093/nar/24.17.3341). The main change in the system was the use of a counterselectable reporter gene whose transcription and translation led to a toxic protein. As such, yeast which contained interacting proteins would die off, leaving only colonies harbouring non-interacting proteins. A final improvement merged the forward and reverse directions in a single system using the Ura3 reporter gene (doi: 10.1073/pnas.93.19.10315). On one hand, in a medium lacking uracil, Ura3 transcription is essential for growth. On the other hand, if one adds 5’-fluoroorotic acid (5FOA) to the medium, Ura3 transcription transforms it into a toxic metabolite, killing the cell. Therefore, one can use the same yeast strain, plating in on media lacking uracil to select for protein-protein interactions or on media with 5FOA to select against them.
 
 
-![Y2H_explained_basic](https://github.com/idec-teams/2023_Evolution_Suisse/assets/91744358/2bd1e4d1-b723-4df0-9315-d2fe0d7069d1)
