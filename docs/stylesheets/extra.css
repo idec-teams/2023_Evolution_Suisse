@@ -6,4 +6,14 @@
     --md-accent-fg-color:                hsla(#{hex2hsl(#0093a7)}, 1);
     --md-accent-fg-color--transparent:   hsla(#{hex2hsl(#0093a7)}, 0.1);
   }
+
+h1 {
+  color: #003e4e;
+  font: Urbanist Black;
+}
+
+h2 { 
+  font: Urbanist Bold;
+  color: #1a1a1a;
+}
   
