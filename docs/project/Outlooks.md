@@ -39,14 +39,14 @@ Many other countries that currently regulate gene-edited plants as GMOs are also
 
 
 
-Tips: Using the Global Gene Editing Regulation Tracker, you can check the regulation status of genome edited plants in the countries you are interested in.
+Tips: Using the [Global Gene Editing Regulation Tracker](https://crispr-gene-editing-regs-tracker.geneticliteracyproject.org/), you can check the regulation status of genome edited plants in the countries you are interested in.
 
 
-Stack several mutations to avoid pathogen’s evolution
+## Stack several mutations to avoid pathogen’s evolution
 Once a new disease resistance strategy is employed, it imposes evolutionary pressure on pathogens to overcome the resistance. The concern arises that pathogens might evolve their effectors to regain interaction with PRRs.
 
 As multiple mutations can be stacked to generate durable resistance (Schultink et al., 2021), we propose that combining several effector-resistant mutations could serve as an effective method to counteract the rapid evolution of pathogens.
-Susceptibility genes
+## Susceptibility genes
 Our strategy can be used to engineer not only the resistance genes (R genes, like PRR genes), but also the susceptibility genes (S genes), which are exploited by pathogens (often via physical interactions between effectors and proteins encoded by S genes) to promote their growth. Since S genes are often involved in physiological processes of plants, complete knock-out or disruption of a S gene sometimes leads to fitness cost (e.g., growth defects) (Koseoglou et al., 2022). Therefore, using rY2H technology to design gene variants resistant to effectors meanwhile retaining its physiological functions can be another potential application scenario of our strategy.
 
 
