@@ -70,7 +70,7 @@ Initially, we did a Y2H plate assay starting from colonies which have been grown
 We then redid the assay by plating the yeast that have just been transformed with the plasmids harbouring the Y2H system, as would be done in our directed evolution workflow (**Fig. 8**). This time, the truncated mutant showed notably less growth, implying that our system works. This is perhaps due to the leaky expression of BleoR, which might be caused by sequences in CERK1 which resemble canonical translation start sites (Monteuuis et al., 2019). Over time, the leaky expression could lead to the accumulation of BleoR, allowing even the truncated mutants to grow on zeocin-containing plates. To overcome this, we plan to introduce D25A mutation to BleoR to compromise its activity by ~ 50% (Dumas et al., 1994), which has been proven useful in counteracting leaky expression (Tominaga et al., 2021). 
 <figure markdown>
 ![Figure8](Result_figures/Figure_8.png)
-<figcaption>Figure 8: When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
+<figcaption>Figure 8. When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
 </figure>
 
 
@@ -104,7 +104,7 @@ Using AlphaFold-Multimer, an artificial intelligence tool specialised for predic
 
 <figure markdown>
 ![Figure9](Result_figures/Figure_9.png)
-<figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
+<figcaption>Figure 9. Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
 </figure>
 
 Looking at the 3D structure, we first found residues in the two proteins that interacted with each other, i.e., were at an acceptable distance from each other or had physio-chemical properties facilitating interactions, such as opposing polarities. Then, within the binding interface, we found residues in CERK1 that interacted with particularly many residues in AvrPtoB. If we could mutate these residues, they might severely affect the stability of the interaction complex, without causing a big change to CERK1 itself. We made sure to avoid functionally important regions of CERK1, as to keep its immune function intact. Lastly, to make sure given mutations do not completely destabilise the global CERK1 structure, we used an additional AI tool called Protein MPNN. This multipronged approach resulted in the following seven mutations: L462S, R474E, F480K, M483R, V488K, V515M, and F525T.
@@ -113,11 +113,17 @@ To validate our predictions, we ran a Y2H assay in both forward and reverse dire
 
 <figure markdown>
 ![Figure10](Result_figures/Figure_10.png)
-<figcaption> Figure 10: Experimental validation of in silico predicted mutations that disrupt CERK1-AvrPtoB interaction.</figcaption>
+<figcaption> Figure 10. Experimental validation of in silico predicted mutations that disrupt CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
 **Conclusion:** The interaction between AvrPtoB and CERK1 were successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
 
 
 
+
+<figure markdown>
+![Figure11](Result_figures/Figure_11.png)
+<figcaption> Figure 11. Kinase-dead CERK1 mutants lost interaction with AvrPtoB suggesting CERK1’s kinase activity and capability to interact with AvrPtoB are closely correlated.
+</figcaption>
+</figure>
 
