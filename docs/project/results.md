@@ -7,16 +7,15 @@ Key achievements:
 
 * [Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions.](#Development of TRUST-rY2H, a novel reverse yeast two-hybrid system)
 
-* [Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.] (#In silico prediction of interaction-disrupting mutations)
+* [Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.] (#_In silico_ prediction of interaction-disrupting mutations)
 
-* [Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants in plants.] (#In planta screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana)
+* [Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants in plants.] (# _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana)
 
 We also:
 
-* [Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.] (#Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation machine
-)
+* [Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.] (#Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation strategy)
 
-* [Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.] (#reporters)
+* [Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.] (#Construction of fluorescent reporter strains to quantitatively measure interaction strength )
 
 # Results
 ## AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses
