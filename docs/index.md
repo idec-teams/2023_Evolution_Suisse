@@ -59,7 +59,8 @@ Developed fluorescent reporters for conventional Y2H and MYTH to precisely measu
 <img src="img/iDEC Team Flyer.jpg"/>
 
 
-References
+## References
+
 [^1]: FAO on behalf of the IPPC Secretariat, Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry and ecosystems. (2021). 
 DOI: https://doi.org/10.4060/cb4769en
 
