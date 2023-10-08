@@ -1,5 +1,36 @@
-Our team
-  <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Gabriel.jpg" width="300" height = "375" title="Gabriel"/>
-  <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Julien.jpg" width="300" height = "375" title="Julien"/>
-  <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Kian.jpg" width="300" height = "375" title="Kian"/>
+# Our team
+<figure markdown>
+![Julien](img/team/fotoshoot_reduced/Julien.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... it's anyway past his bedtime</figcaption>
+</figure>
+
+<figure markdown>
+![Gabriel](img/team/fotoshoot_reduced/Gabriel.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... snorting leucin, the most anabolic of all amino acids</figcaption>
+</figure>
+
+<figure markdown>
+![Julien](img/team/fotoshoot_reduced/Kian.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... being angry</figcaption>
+</figure>
+
+<figure markdown>
+![SongyuanL](img/team/fotoshoot_reduced/SongyuanL.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... modelling AvrPtoB in record time</figcaption>
+</figure>
+
+<figure markdown>
+![Sophia](img/team/fotoshoot_reduced/Sophia.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... being in black</figcaption>
+</figure>
+
+<figure markdown>
+![SongyuanZ](img/team/fotoshoot_reduced/SongyuanL.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... Actually he just realised he is not away</figcaption>
+</figure>
+
+<figure markdown>
+![Sasha](img/team/fotoshoot_reduced/Sasha.jpg){: style="height:375px;width:300px"}
+<figcaption>Away... Getting millions in funding</figcaption>
+</figure>
 
