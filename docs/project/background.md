@@ -77,7 +77,7 @@ The MYTH system is based on fusing the halves of ubiquitin to two interacting pr
 
 <figure markdown>
 ![Figure7](Background_figures/Figure_6.png)
-<figcaption>Figure 6. Schematic representation of MYTH in the case the proteins of interest interact (left) and don't interact (right). Taken from _Hybrigenics Services SAS_.</figcaption>
+<figcaption>Figure 6. Schematic representation of MYTH in the case the proteins of interest interact (left) and don't interact (right). Taken from Hybrigenics Services SAS.</figcaption>
 </figure>
 
 To our knowledge, except the conventional Y2H, there is no reverse system successfully developed for other genetic PPI assays, only a failed attempt (Sahin, 2019). In terms of truncation elimination, some strategies are limited to the conventional Y2H (Kim et al., 2007; Vincent et al., 2020), some can potentially be used for other genetic PPI assays like MYTH but with the risk of impairing the interaction detection.
