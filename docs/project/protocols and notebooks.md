@@ -139,7 +139,16 @@ Procedure:
 The enzymes are found in the yellow
 Use online molar ratio calculator:
 Insert bp and concentration ⇒ molar concentration
-![Screenshot 2023-10-08 175759](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/9e55bf58-f065-4ea6-a22b-a4aaa2169fc1)
+|           | 10ul system   | 20 ul system  |
+| --- | --- | --- |
+| backbone             | 1ul | 2ul |
+| insert  | calculate ratio  | calculate ratio |
+| 10 x T4 ligase buffer| 1ul  | 2ul
+| T4 ligase | 0.5ul | 1ul |
+| BpiI/Esp3I/BsaI | 0.5ul | 1ul |
+| ddH2O  | 10-insert | 20-insert |
+
+
  “Golden Gate Box” in the freezer next-door
 We want +/- 3 times insert per backbone molar ratio (the backbone is always 1ul)
 
@@ -155,9 +164,15 @@ The only thing you realistically change is the number of cycles, if something is
 
 # Digestion/Ligation ( prep 1h, digestion 2h)
 
-
  
-![Screenshot 2023-10-08 180049](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/eb662ef6-6e74-483c-8e3d-bc8bd91fc5e4)
+|  | 20ul System |
+| --- | --- |
+| DNA | >2ug (200ng) |
+| Enzyme 1 | 1.5ul |
+| Enzyme 2 | 1.5ul |
+|10x CutSmart Buffer | 2ul |
+| ddH2O | Fill up to 20ul |
+
 
 
  
