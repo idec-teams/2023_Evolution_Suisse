@@ -2,7 +2,7 @@ site_name: iDEC 2023 | Evolution Suisse
 
 theme:
   name: material
-  logo: img/Logo.png
+  logo: img/Logo .png
   favicon: img/Logo Transparent.png
 
   palette:
