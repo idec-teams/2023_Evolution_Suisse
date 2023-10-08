@@ -1,0 +1,43 @@
+:root {
+    --md-primary-fg-color:        #42c6d2;
+    --md-primary-fg-color--light: #b9e9f5;
+    --md-primary-fg-color--dark:  #005e75;
+
+    --md-accent-fg-color:                hsla(#{hex2hsl(#0093a7)}, 1);
+    --md-accent-fg-color--transparent:   hsla(#{hex2hsl(#0093a7)}, 0.1);
+  }
+
+h1 {
+  color: #003e4e;
+  font: "Urbanist Black";
+}
+
+h2 { 
+  font: "Urbanist Bold";
+  color: #1a1a1a;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 48px;
+  justify-content: center;
+}
+
+.image-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;  /* Adjust the value as needed */
+}
+.image-item img {
+  width: 300px;
+  height: 375px;
+  object-fit: cover;
+}
+
+.image-item span {
+  display: block;
+  text-align: center;
+}
+
+
+  

@@ -1,0 +1,1109 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../../project/references/">
+      
+      
+        <link rel="next" href="../notebook/">
+      
+      
+      <link rel="icon" href="../../img/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.4">
+    
+    
+      
+        <title>Protocols - Evolution Suisse</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.bd3936ea.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.356b1318.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Urbanist:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Urbanist";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="green">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#yeast-transformation-with-peg-liac" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Evolution Suisse" class="md-header__button md-logo" aria-label="Evolution Suisse" data-md-component="logo">
+      
+  <img src="../../img/Logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Evolution Suisse
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Protocols
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/idec-teams/2023_Evolution_Suisse" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../project/background/" class="md-tabs__link">
+          
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="./" class="md-tabs__link">
+          
+  
+  Documentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../team/" class="md-tabs__link">
+        
+  
+    
+  
+  Team
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Evolution Suisse" class="md-nav__button md-logo" aria-label="Evolution Suisse" data-md-component="logo">
+      
+  <img src="../../img/Logo.png" alt="logo">
+
+    </a>
+    Evolution Suisse
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/idec-teams/2023_Evolution_Suisse" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/background/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Background
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/results/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Results
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/Outlooks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Outlook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../project/references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Documentation
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Protocols
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yeast-transformation-with-peg-liac" class="md-nav__link">
+    Yeast transformation with PEG LiAc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformation-into-e-coli-1hour" class="md-nav__link">
+    Transformation into E. Coli (»1hour)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#y2h-plate-assay-the-quicker-version" class="md-nav__link">
+    Y2H plate assay – the quicker version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformation-to-agrobacteria" class="md-nav__link">
+    Transformation to Agrobacteria
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plant-transformation-using-agrobacterium-protocol" class="md-nav__link">
+    Plant Transformation Using Agrobacterium Protocol
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#golden-gate-cloning" class="md-nav__link">
+    Golden Gate cloning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#digestionligation" class="md-nav__link">
+    Digestion/Ligation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ros-burst-assay" class="md-nav__link">
+    ROS burst assay
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flow-cytometry" class="md-nav__link">
+    Flow Cytometry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-prone-pcr-protocol" class="md-nav__link">
+    Error-Prone PCR Protocol:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virus-induced-gene-silencing-vigs-protocol" class="md-nav__link">
+    Virus-Induced Gene Silencing (VIGS) Protocol:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../notebook/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Lab Notebook
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../files/report.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Report
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../files/supplement.pdf" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Download Supplimentary Data
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../team/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Team
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#yeast-transformation-with-peg-liac" class="md-nav__link">
+    Yeast transformation with PEG LiAc
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformation-into-e-coli-1hour" class="md-nav__link">
+    Transformation into E. Coli (»1hour)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#y2h-plate-assay-the-quicker-version" class="md-nav__link">
+    Y2H plate assay – the quicker version
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#transformation-to-agrobacteria" class="md-nav__link">
+    Transformation to Agrobacteria
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plant-transformation-using-agrobacterium-protocol" class="md-nav__link">
+    Plant Transformation Using Agrobacterium Protocol
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#golden-gate-cloning" class="md-nav__link">
+    Golden Gate cloning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#digestionligation" class="md-nav__link">
+    Digestion/Ligation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ros-burst-assay" class="md-nav__link">
+    ROS burst assay
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flow-cytometry" class="md-nav__link">
+    Flow Cytometry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-prone-pcr-protocol" class="md-nav__link">
+    Error-Prone PCR Protocol:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virus-induced-gene-silencing-vigs-protocol" class="md-nav__link">
+    Virus-Induced Gene Silencing (VIGS) Protocol:
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Protocols</h1>
+
+<h2 id="yeast-transformation-with-peg-liac">Yeast transformation with PEG LiAc</h2>
+<p>This protocol is modified from the standard protocol: </p>
+<p>Gietz RD, Woods RA. Transformation of yeast by lithium acetate/single-stranded carrier DNA/polyethylene glycol method. Methods Enzymol. 2002;350:87-96. <br />
+doi: 10.1016/s0076-6879(02)50957-5. PMID: 12073338.</p>
+<ol>
+<li>Inoculation of yeast into liquid culture in YPAD the day before (overnight culture 2ml)</li>
+<li>Regrown yeast in new media until log phase</li>
+<li>Dilute OD from overnight culture to OD = 0.2 and grow until approximately 0.8 (about 5-6h)</li>
+<li>Volume 🡺 about 1ml per transformation (more than enough, 500 uL culture per transformation also works well)</li>
+<li>Collect and wash cells </li>
+<li>Centrifugation (two big centrifuges at end of next-door lab: 3000g for 5 minutes, RT, acceleration, and deceleration = 9 )</li>
+<li>Discard supernatant</li>
+<li>Resuspend in the same volume (or 1/2 volume)</li>
+<li>Centrifuge again</li>
+<li>
+<p>Discard supernatant</p>
+</li>
+<li>
+<p>Reagents: 1M LiAc, 50% PEG 3350(stored at RT sometimes in fridge), ssDNA (salmon sperm DNA 2mg/ml, becomes single strand DNA after boiling: Eppendorf in freezer)</p>
+</li>
+<li>Use autoclaved Eppendorf tubes (autoclaving room) and label them</li>
+<li>Boil ssDNA 5 minutes at 95°C and transfer immediately to ice.</li>
+<li>Resuspend yeast in 0.1M LiAc (Dilution volume = ml of initial culture volume x 20ul, H2O = 0.9 x dilution volume, LiAc = 0.1 x dilution volume)</li>
+<li>Transfer to another 1.5ml Eppendorf tubes </li>
+<li>Make transformation mix: 240ul PEG + 40ul 1M LiAc + 50ul ssDNA in the labelled Eppendorf tubes, mix </li>
+<li>Add the plasmids 🡺 around 800ng each</li>
+<li>Add 20ul of diluted cells and vortex.</li>
+<li>Incubate for 15min at 28°C shaking incubator (use floating Styrofoam to place eppis)</li>
+<li>Pre-heat water bath (room next door, next to window) at 42°C</li>
+<li>Put in water bath (not the metal one) for 1 hour at 42°C, shake it frequently to avoid precipitation or clotting.</li>
+<li>Collect cells by spinning max speed for 1-2 minutes, discard supernatant</li>
+<li>Dilute according to plate size </li>
+<li>Plate 1:10 of the cells (big plate = up to 100ul, small plate 50ul)</li>
+</ol>
+<h2 id="transformation-into-e-coli-1hour">Transformation into E. Coli (»1hour)</h2>
+<ol>
+<li>Take eppis with 50ul E. Coli culture (main lab, -80°C, bottom middle, DH10B, red lid).</li>
+<li>Thaw on ice (use white box, ice machine is in the room that connects two hallways, after the PCR room)</li>
+<li>Use 1:10 volume for unpurified plasmid (e.g. straight after golden gate reaction)
+·   5ul DNA in 50ul E. Coli</li>
+<li>Leave cells on ice for 20 minutes.</li>
+<li>Pre-heat heat block or water bath to 42°C (next to window in next door lab)</li>
+<li>Heat shock at 42°C for 45 seconds.</li>
+<li>Put back on ice for one to 5 minutes.</li>
+<li>Add 500ul LB the eppis.</li>
+<li>Incubate for 30 minutes (in the 37°C incubator use the floaty Styrofoam to hold the eppis)</li>
+<li>Plate 100ul on selection media.</li>
+<li>Label plate at the bottom and put them at 37°C upside-down in the incubator.</li>
+</ol>
+<h2 id="y2h-plate-assay-the-quicker-version">Y2H plate assay – the quicker version</h2>
+<ol>
+<li>Have the plates with the transformed yeast ready, they should have nice colonies.</li>
+<li>Take a 96-well PCR plate and add 30-40 μL of MQ water to each well, with one well per sample. Save yourself time and energy by using a multi-channel which can be found either at the incubators in our room, or in the middle of the next room, close to the door.</li>
+<li>For each plate take a tip and pick around 4-5 medium sized colonies (all of them on the same tip). The number of colonies depends on the volume of water used so for 30-40 μL, 4-5 is enough.</li>
+<li>Resuspend the picked colonies in the PCR plate wells. Make sure to resuspend it well here so as not to have to big clumps (this could be a problem for getting a good OD) measurement, the suspension in the well should become cloudy after this.</li>
+<li>With this your yeast are ready, and now you have to readjust the OD600 to around 0.2. It doesn’t have to be 0.200, but be in the +-0.01 range. This will be done using the Nanodrop.</li>
+<li>Open the Nanodrop program and pick the cell suspension setting (should be in the bottom part of the menu). When there set the value called “User cursor” to 600 nm. Also make sure to adjust the maximum value shown to around 0.3 if you want to see the spectra.</li>
+<li>Blank with MQ water and measure the OD600 normally – 1.5 μL for the measurement. If the OD600 isn’t in the acceptable window, add MQ water until it is. Usually if you are above 0.261 you can add 10 μL and see where it goes from there. In case you go too low, resuspend additional colonies. My advice is to add less rather than more, it will result in less readjustments in total.</li>
+<li>Once you have all of the yeast at the appropriate OD600 value they are ready to be plated.</li>
+<li>For the reverse Y2H we use SD -leu -trp -his plates supplemented with 0.1% 5-FOA (this you can find in the IDEC freezer, small dark bottle in a bubble wrap bag, the 100x on it is correct so you need to dilute it 100 times in the medium). This can be found in the reverse double Y2H paper.</li>
+<li>To plate the yeast you need to prepare serial dilutions, usually the cell suspension we prepared and then 3 decimal dilutions. Again, save yourself time using a multichannel. </li>
+<li>Once all the dilutions are prepared, plate the yeast using a multichannel, plating 5 μL of each sample. Make sure that all the samples are aligned, you can position the PRC plate bellow the medium plate to act as a guide.</li>
+<li>Once the yeast are plated, let the plates dry, collect and grow in a static incubator at 28 °C for 2-3 days. </li>
+</ol>
+<h2 id="transformation-to-agrobacteria">Transformation to Agrobacteria</h2>
+<ol>
+<li>Cool down cuvettes in freezer (next door lab, under the middle window, drawer marked “CUVETTES” or clean ones on iDEC bench)</li>
+<li>Take Agrobacteria out of -80°C freezer on to ice → middle drawer of lowest row, box that is labelled with GV3101 (not anything else additionally!)</li>
+<li>Get electroporation cuvettes should be pre-cooled in 4 or -20°C </li>
+<li>Add all of agrobacteria into slit in cuvette</li>
+<li>Add 1.5 uL (+/- 100ng) of purified plasmid on top, do not mix!</li>
+<li>Prepare tubes with 500 uL of LB</li>
+<li>Go to electroporation machine (to the right of the spectrophotometer), turn on and set to 1.4 kV</li>
+<li>Put cuvette in holder (make sure orientation is correct) and push into machine until it clicks</li>
+<li>Press both red buttons until you hear a beep, the machine should show less than 5 ms (or slightly above) otherwise you have to repeatBe careful, if cuvette is not clean the machine will produce a lighting bolt</li>
+<li>Directly after electroporation, add 500 uL LB to the cuvette and resuspend.</li>
+<li>Transfer back to tube.</li>
+<li>Incubate at 28°C for 2h.</li>
+<li>Plate cells on selection media (for GV3101 Rif/Gen, for pTRV2 Kan → LB-Rif/Gen/Kan).</li>
+<li>Incubate at 28°C.</li>
+<li>Rinse cuvettes well with tap water and then leave them in a beaker of ethanol for a while and then dry them.</li>
+</ol>
+<h2 id="plant-transformation-using-agrobacterium-protocol">Plant Transformation Using Agrobacterium Protocol</h2>
+<p>Materials:
+- Agrobacterium strain (construct + p19)
+- Infiltration buffer: Magnesium Chloride (MgCl2) and MES
+- AS (Acetosyringone) in DMSO
+- Centrifuge
+- Syringe (1 ml)
+- Spectrophotometer (for measuring OD)</p>
+<p>Procedure:</p>
+<ol>
+<li>Agrobacterium Culture Preparation:</li>
+<li>Grow the Agrobacterium containing your desired construct.</li>
+<li>
+<p>Grow the p19 Agrobacterium, which is cotransformed to suppress the plant defense response.</p>
+</li>
+<li>
+<p>Centrifugation:</p>
+</li>
+<li>
+<p>Spin down the Agrobacterium culture for 10 minutes at 3,000 G.</p>
+</li>
+<li>
+<p>Preparation of Infiltration Buffer:</p>
+</li>
+<li>Prepare a stock solution with final concentrations of 10 mM for both Magnesium Chloride (from a 100 mM stock, dilute 100 times) and MES (from a 500 mM stock, dilute 50 times).</li>
+<li>
+<p>Acetylsaringone (AS) stock is at a concentration of 0.1 M</p>
+<ul>
+<li>Either dilute the AS stock in DMSO or use a prepared stock solution from the freezer.</li>
+<li>Add between 150-200 μl of AS to every 100 ml of the infiltration buffer.</li>
+</ul>
+</li>
+<li>
+<p>Resuspension:</p>
+</li>
+<li>Resuspend the Agrobacterium pellet from step 2 in 5 ml of the infiltration buffer.</li>
+<li>Centrifuge for 10 minutes at 3,000 G.</li>
+<li>
+<p>Resuspend the pellet in the final infiltration buffer containing both the buffer and AS.</p>
+</li>
+<li>
+<p>OD Adjustment:</p>
+</li>
+<li>
+<p>Adjust the Agrobacterium culture to a final optical density (OD) of 0.5.
+      =&gt; construct should represent an OD of 0.4 while P19 should represent 0.1 OD.</p>
+<ul>
+<li>Option 1: Adjust all concentrations to an OD of 0.5. Mix at a ratio of 1:5 for P19 and 4:5 for the construct.</li>
+<li>Option 2: Directly measure and adjust the concentrations to achieve 0.4 OD for the construct and 0.1 OD for P19. Dilute using the infiltration buffer.
+=&gt; final volume 10ml
+=&gt; Keep a separate 0.5 OD of P19 as a negative control</li>
+<li>Incubation:</li>
+<li>Incubate the Agrobacterium culture on a shaker for 1 hour. The shaker is located in the lab next door, against the wall of our lab.</li>
+</ul>
+</li>
+<li>
+<p>Infiltration:</p>
+</li>
+<li>Retrieve a 1 ml syringe (from the next door lab on the corner shelf)</li>
+<li>Label plant leaves </li>
+<li>Fill the syringe with the Agrobacterium culture.</li>
+<li>Press the syringe into the underside of the plant leaf while using a finger to press against the top side of the leaf for efficient infiltration.</li>
+</ol>
+<h2 id="golden-gate-cloning">Golden Gate cloning</h2>
+<p>The enzymes are found in the yellow
+Use online molar ratio calculator:
+Insert bp and concentration ⇒ molar concentration
+|           | 10ul system   | 20 ul system  |
+| --- | --- | --- |
+| backbone             | 1ul | 2ul |
+| insert  | calculate ratio  | calculate ratio |
+| 10 x T4 ligase buffer| 1ul  | 2ul
+| T4 ligase | 0.5ul | 1ul |
+| BpiI/Esp3I/BsaI | 0.5ul | 1ul |
+| ddH2O  | 10-insert | 20-insert |</p>
+<p>“Golden Gate Box” in the freezer next-door
+We want +/- 3 times insert per backbone molar ratio (the backbone is always 1ul)</p>
+<p>Add to DIGLIG thermocycler (if in use, also other Thermal cyclers available):
+File 🡺 DIGLIG
+Change volume accordingly
+The only thing you realistically change is the number of cycles, if something is efficient and you want it done quickly, you are looking at around 15 cycles, and if not then go for 28ish </p>
+<h2 id="digestionligation">Digestion/Ligation</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>20ul System</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>DNA</td>
+<td>&gt;2ug (200ng)</td>
+</tr>
+<tr>
+<td>Enzyme 1</td>
+<td>1.5ul</td>
+</tr>
+<tr>
+<td>Enzyme 2</td>
+<td>1.5ul</td>
+</tr>
+<tr>
+<td>10x CutSmart Buffer</td>
+<td>2ul</td>
+</tr>
+<tr>
+<td>ddH2O</td>
+<td>Fill up to 20ul</td>
+</tr>
+</tbody>
+</table>
+<p>Digestion:
+·   First calculate DNA and water volume
+·   If DNA volume exceeds the 20ul of the system, increase total system accordingly
+·   The enzymes can be found in the freezer of the next-door lab top left
+·   Add the enzymes last and keep on cold block</p>
+<p>·   Incubate for 2 hours or overnight at 37°C
+·   Clean-up the product before starting the ligation</p>
+<h2 id="ros-burst-assay">ROS burst assay</h2>
+<ol>
+<li>Preparation of Leaf Disks:</li>
+<li>Cut leaf disks from Nicotiana benthamiana plants.</li>
+<li>Preparation of Chemiluminescent Reagent:</li>
+<li>Prepare a solution containing 10 µM LO-12, 10 µg/ml  of horseradish peroxidase and 100ug/ml of chitin in water. Add 100 µl of this solution per leaf disk. </li>
+<li>ROS Elicitation: </li>
+<li>remove the water from the container without disturbing the leaf disks</li>
+<li>Replace the water with 100 µl of the prepared chemiluminescent reagent with chitin per leaf disk.</li>
+<li>Negative Control: Prepare a negative control by treating additional leaf disks with 100 µl of water (without any PAMPs or chemiluminescent reagent).</li>
+<li>Measurement of Luminescence: </li>
+<li>Place the container in the Tecan spark  machine  and measure luminescence for around 45  minutes. Record the data as total counts over the 45-minute period. </li>
+</ol>
+<h2 id="flow-cytometry">Flow Cytometry</h2>
+<ol>
+<li>Colony Preparation:</li>
+<li>Select six colonies from each group.</li>
+<li>Resuspend each colony in 1.5 mL of yeast SD (Synthetic Defined) medium.</li>
+<li>Overnight Culturing:</li>
+<li>Transfer the resuspended colonies to a 96-deep well plate (Corning®).</li>
+<li>Seal the plate with 3M™ Micropore™ Surgical Tape.</li>
+<li>Incubate overnight to allow for culture growth.</li>
+<li>Sample Preparation:</li>
+<li>Following overnight incubation, dilute the cultures 5-fold using PBS (Phosphate-buffered saline) buffer.</li>
+<li>Flow Cytometry Measurement:</li>
+<li>Load the diluted samples into the flow cytometer.</li>
+<li>Follow the flow cytometry protocol for yeast fluorescence measurement as described in Ottoz et al., 2016.</li>
+<li>Data Analysis:</li>
+<li>Analyze the collected data using FlowJo software.</li>
+<li>Perform a one-way ANOVA with Dunnett’s posthoc test to assess the differences between sample fluorescence means.</li>
+</ol>
+<h2 id="error-prone-pcr-protocol">Error-Prone PCR Protocol:</h2>
+<ol>
+<li>Polymerase Preparation: Prepare GoTaq polymerase according to the corresponding protocol provided by the manufacturer. </li>
+<li>Mutation Rate Calculation: Calculate the mutation rates using the Thermofisher fidelity calculator to predict a single point mutation across the CERK1 sequence. </li>
+<li>PCR Setup: Adjust the annealing temperatures according to the primers being used. Set up the thermocycler to run for 35 cycles. </li>
+<li>PCR Execution: Load the prepared mixture into the thermocycler and run the PCR. </li>
+<li>Product Purification: Purify the PCR product following standard purification protocols. </li>
+</ol>
+<h2 id="virus-induced-gene-silencing-vigs-protocol">Virus-Induced Gene Silencing (VIGS) Protocol:</h2>
+<ol>
+<li>Agrobacteria Transformation: Transform electrocompetent agrobacteria as previously described with either pTRV1 or pTRV2-CERK1 vectors. Culture Preparation: Recover and culture the transformed bacteria overnight as previously described. </li>
+<li>Culture Adjustment: The following day, adjust the cultures to an OD600 of 2.0. </li>
+<li>Culture Mixing: Mix pTRV1 and pTRV2-CERK1 cultures in a 1:1 ratio. </li>
+<li>Incubation: Incubate the mixture for 1-3 hours at room temperature with shaking. </li>
+<li>Plant Infiltration: Infiltrate the true leaves of 1-week-old N. benthamiana plants with the culture mixture using a syringe. </li>
+<li>Growth: Grow the infiltrated plants for 3-4 weeks under greenhouse conditions. </li>
+<li>Validation: Perform a ROS burst assay to validate the gene silencing.</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Evolution Competition (iDEC) is a Scottish Charitable Incorporate Organisation (SCIO), registered in Scotland, with charity number：SC050826
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.sections", "navigation.instant", "navigation.tabs"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.94c44541.min.js"></script>
+      
+        <script src="../../javascripts/config.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tables.js"></script>
+      
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
