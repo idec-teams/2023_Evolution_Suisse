@@ -10,11 +10,12 @@ hide:
 <div class="image-grid">
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Julien.jpg" alt="Julien" style="height:375px;width:300px">
-    <span>Away... it's anyway past his bedtime</span>
+    <span>Julien <br>
+       it's past his bedtime</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Gabriel.jpg" alt="Gabriel" style="height:375px;width:300px">
-    <span>Away... snorting leucin, the most anabolic of all amino acids</span>
+    <span>snorting leucin, the most anabolic of all amino acids</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Kian.jpg" alt="Kian" style="height:375px;width:300px">
@@ -22,11 +23,11 @@ hide:
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/SongyuanL.jpg" alt="SongyuanL" style="height:375px;width:300px">
-    <span>Away... modelling AvrPtoB in record time</span>
+    <span> modelled AvrPtoB in record time</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Sophia.jpg" alt="Sophia" style="height:375px;width:300px">
-    <span>Away... being in black</span>
+    <span>always wears black</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/SongyuanZ.jpg" alt="SongyuanZ" style="height:375px;width:300px">
@@ -34,6 +35,6 @@ hide:
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Sasha.jpg" alt="Sasha" style="height:375px;width:300px">
-    <span>Away... Getting millions in funding</span>
+    <span> Getting millions in funding</span>
   </div>
 </div>
