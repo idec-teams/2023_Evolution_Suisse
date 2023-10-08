@@ -20,7 +20,7 @@ hide:
     <span> Gabriel Cervera Arriaga <br>
       Master's student, ETH Zürich
       <br> 
-      Waiting to tell you that leucine is the most anabolic amino acid?</span>
+      Waiting to tell you that leucine is the most anabolic amino acid.</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Kian.jpg" alt="Kian" style="height:375px;width:300px">
