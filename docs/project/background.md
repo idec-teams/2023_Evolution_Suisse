@@ -4,7 +4,7 @@
 ## Threats to global food supply
 With a rising global population and greater weather variability due to climate change, food insecurity has become increasingly problematic. Recent estimates by the American Phytopathological Society (2023) indicate a global reduction of up to 40% in crop yields due to pests and diseases. Another study shows the impact on specific crops, revealing wheat losses of 10-28%, rice losses of 25-41%, maize losses of 20-41%, potato losses of 8-21%, and soybean losses of 11-32% attributed to pathogens and pests (Savary et al., 2017).
 
-![Picture1](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/b266f526-dca0-40fb-a066-73153ed0ba2c)
+![Picture1](https://github.com/idec-teams/2023_Evolution_Suisse/blob/main/docs/img/Temperatures_rising_figure.png)
 *IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry and ecosystems.*
 
 These diseases negatively impact crop yield and quality, posing a substantial challenge for the agricultural sector (Martins et al., 2018; Savary et al., 2017), leading to an economic burden on agricultural economies and higher food prices.
