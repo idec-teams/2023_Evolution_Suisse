@@ -19,7 +19,6 @@ Advantage and disadvantage of different gene-editing system
 
 
 
-
 ![Picture7](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/519ffb33-14e8-4742-ac5a-2c58b7d32e5a)
 
 
