@@ -5,7 +5,7 @@
 With a rising global population and greater weather variability due to climate change, food insecurity has become increasingly problematic. Recent estimates by the American Phytopathological Society (2023) indicate a global reduction of up to 40% in crop yields due to pests and diseases. Another study shows the impact on specific crops, revealing wheat losses of 10-28%, rice losses of 25-41%, maize losses of 20-41%, potato losses of 8-21%, and soybean losses of 11-32% attributed to pathogens and pests (Savary et al., 2017).
 
 <figure markdown>
-![Rising_temperatures](docs/img/Temperatures_rising_figure.png)
+![Figure1](docs/img/Temperatures_rising_figure.png)
 <figcaption>IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry and ecosystems.</figcaption>
 </figure>
 
@@ -16,7 +16,7 @@ For these reasons, developing crops with enhanced resistance to pathogens is ind
 
 
 ## Plant immunity
-![Picture2](https://github.com/idec-teams/2023_Evolution_Suisse/blob/main/docs/img/Fig_1_A_1.png)
+![Figure2](docs/img/Fig_1_A_1.png)
 
 Plant innate immunity relies on pattern recognition receptors (PRRs), membrane proteins that detect potential pathogens. They do this by recognizing specific molecules from pathogens, the so-called pathogen-associated molecular patterns (PAMPs). Examples of PAMPs include flg22, a 22-amino-acid peptide from flagellin (the building block of flagella) of bacteria, and peptidoglycan and chitin from bacterial and fungal cell walls, respectively.
 Upon detection of PAMPs, the PRRs trigger a defensive response within the plant to halt the pathogen's progression and spread (Boutrot & Zipfel, 2017; Zipfel, 2014). The immune response proceeds progressively, through multiple different pathways, depending on the sensed threat (Boller & Felix, 2009). The start of the response is characterised by changing ion fluxes, considerable production of reactive oxygen species (ROS), activation of the mitogen-activated protein kinase (MAPK) pathway and the subsequent phosphorylation cascades. Out of these early responses, the ROS burst is of special importance as it can be easily detected and measured using luminol’s H2O2-dependent luminescence. Later stages of the immune response are mainly characterized by production of the stress hormone ethylene, immune gene activation, and callose deposition.
