@@ -266,10 +266,15 @@ These reporter strains have been already successfully used in our research to dr
 
 In the future, we will run a rY2H assay in strains carrying both _Ura3_ and fluorescent reporter genes, so that we can directly pick colonies from 5-FOA plates to measure to what extent the interaction is disrupted.
 
-References:
+## References:
 P. Dumas, M. Bergdoll, C. Cagnon, and J. M. Masson, Crystal structure and site-directed mutagenesis of a bleomycin resistance protein and their significance for drug sequestering. EMBO J, vol. 13, pp. 2483–2492, (1994). DOI: https://10.1002/J.1460-2075.1994.TB06535.X
+
 M. Tominaga, K. Nozaki, D. Umeno, J. Ishii, and A. Kondo, Robust and flexible platform for directed evolution of yeast genetic switches. Nature Communications, vol. 12, pp. 1–13, (2021). DOI: https://10.1038/s41467-021-22134-y
+
 W. Cheng et al., Structural Analysis of Pseudomonas syringae AvrPtoB Bound to Host BAK1 Reveals Two Similar Kinase-Interacting Domains in a Type III Effector. Cell Host Microbe, vol. 10, pp. 616–626, (2011). DOI: https://10.1016/J.CHOM.2011.10.013
+
 A. Pietraszewska-Bogiel et al., Interaction of Medicago truncatula Lysin Motif Receptor-Like Kinases, NFP and LYK3, Produced in Nicotiana benthamiana Induces Defence-Like Responses. PLoS One, vol. 8, pp. 65055, (2013). DOI: https://10.1371/JOURNAL.PONE.0065055
+
 C. Ma et al., Structural basis for BIR1-mediated negative regulation of plant immunity. Cell Research, vol. 27, pp. 1521–1524, (2017). DOI: https://10.1038/cr.2017.123
+
 T. Halter et al., The leucine-rich repeat receptor kinase BIR2 is a negative regulator of BAK1 in plant immunity. Current Biology, vol. 24, pp. 134–143, (2014). DOI: https://10.1016/j.cub.2013.11.047
