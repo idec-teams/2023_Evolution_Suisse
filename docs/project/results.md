@@ -100,7 +100,7 @@ We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that 
 | **Original rY2H** | - | - | - | + |
 | **rY2H**(Vidal et al.) | + | - | + | - |
 | **rY2H** (Leanna et al.) | - | - | + | - |
-| **rDY2H** (Vincent et al.) |+ | + | - | - |
+| **rDY2H** (Vincent et al.) | + | + | - | - |
 | **One-plus Two Hybrid system**(Kim et al.) | + | - | - | - |
 | **TRUST-rY2H**(Kim et al.) | + | + | + | + |
 
