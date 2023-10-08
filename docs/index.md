@@ -10,8 +10,6 @@ Like humans, plants also have a built in immune system to protect themselves fro
 
 To counteract the plant's immune system, pathogens can introduce proteins called effectors into the plant cells to inhibit PRRs (as well as other immune proteins) and even degrade them, via protein-protein interactions[^6].
 
-<img src="img/transp.png" align="right" width="100" height="250"/><img src="img/evolution_high_level.png" align="right" width="250" height="250"/><img src="img/transp.png" align="right" width="100" height="250"/>
-
 To counteract effectors, plants can elude the attacks by effectors, by generating mutations to disrupt the protein-protein interactions between effectors and the targets.
 
 The endless arms race between plants and pathogens is a perfect example of evolution. Due to the slow growth of plants and the fast proliferation of pathogens, plants evolve much slower than pathogens. Therefore, it’s difficult for us to search for resistant plants from nature, and pathogens can easily overcome plant’s resistance. 
@@ -29,28 +27,16 @@ To help plants win the arms race, we are employing a Nobel Prize-winning technol
 
 4. Introduce qualified mutations to crops using precise genome editing technology, resulting in non-GMO crops with enhanced disease resistance.
 
-
-
-<div style="clear: both;">
-    <img src="img/model.gif" style="float: right; margin-left: 10px;" width="250" height="250"/>
-    <img src="img/transp.png" style="float: left; margin-right: 10px;" width="100" height="250"/>
-
-<div style="text-align: left;">
-    <h2>Key achievements:</h2>
-    <ul>
-        <li>Pioneered using directed evolution technology to create disease resistant crops</li>
-        <li>Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors</li>
-        <li>Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions. <a href="results.md">Results</a></li>
-        <li>Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design. <a href="results.md">Results</a></li>
-        <li>Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants. <a href="results.md">Results</a></li>
-    </ul>
-</div>
+## Key achievements:
+ * Pioneered using directed evolution technology to create disease resistant crops
+ * Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors
+ * Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions. [Results](results.md)
+ * dentified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design. [Results](results.md)
+ * Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants. [Results](results.md)
 
 We also:
-
-Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins. (link to results)
-
-Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions. (link to results)
+ * Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins. (link to results)
+ * Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions. (link to results)
 
 
 
