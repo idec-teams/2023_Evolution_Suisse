@@ -223,3 +223,35 @@ We then tested whether the E2A-BleoR anti-truncation strategy can be also applie
 
 **Conclusion:** We successfully developed TRUST-rMYTH, a reverse split-ubiquitin membrane protein yeast two-hybrid system equipped with E2A-BleoR anti-truncation strategy, which can be used to disrupt interactions between membrane-bound proteins while avoiding truncations.
 
+## Construction of fluorescent reporter strains to quantitatively measure interaction strength 
+In classic Y2H and MYTH assays, the existence of interaction and the difference of interaction strengths are concluded mainly based on the cell growth, which is not quantitative enough, and might not be able to detect the small changes of the interaction strength. Although most commercial strains are equipped with a LacZ reporter gene enabling the usage of enzymatic activity assays (like ONPG assay) to quantify the interaction, it is very labour-intensive to conduct such assays, especially when handling a large number of samples. 
+
+**Aim:** To develop reporter strains carrying a fluorescent reporter gene for both conventional Y2H and MYTH to precisely measure the interaction strength. 
+
+The construction strategies for the fluorescent reporter strains for both the conventional Y2H, as well as  MYTHare shown on **Figure 19**.
+
+<figure markdown>
+![Figure19](Result_figures/Figure_19.png)
+<figcaption> Figure 19. Construction of fluorescent reporter strain OVY216+pGAL1-ymUKG1 for the conventional Y2H, and FRY70+FRP795 for split-ubiquitin membrane protein Y2H.
+
+</figcaption>
+</figure>
+
+As shown in Figure 20, the workflow, which is based on liquid handling, is very simple.
+
+<figure markdown>
+![Figure20](Result_figures/Figure_20.png)
+<figcaption>Figure 20. Workflow to quantitatively measure PPI strength using the fluorescent reporter strains.
+
+</figcaption>
+</figure>
+
+These reporter strains have been already successfully used in our research to draw the following conclusions:
+
+* In the TRUST-rY2H system, the E2A-BleoR fusion has almost no interference on the CERK1-AvrPtoB interaction, and E2A is the best 2A self-cleavage peptide in comparison with O2A and P2A (**Fig 6**).
+
+* In yeast, BAK1 and BIR2 interact with each other through both the extracellular and intracellular domains (**Fig. 17**). 
+
+* In the TRUST-rMYTH system, the E2A-BleoR anti-truncation module does not interfere with the interaction detection module (**Fig. 18**).
+
+In the future, we will run a rY2H assay in strains carrying both _Ura3_ and fluorescent reporter genes, so that we can directly pick colonies from 5-FOA plates to measure to what extent the interaction is disrupted.
