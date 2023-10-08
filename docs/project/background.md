@@ -57,9 +57,37 @@ Yeast two-hybrid (Y2H) is the oldest and one of the most popular genetic methods
 ## Reverse Y2H
 In theory, there is nothing preventing the use of a negative readout from the reporter gene as an indication of no interaction between two proteins (Fig. 6 left). It was precisely this thinking that led to the development of the first reverse yeast two-hybrid (rY2H) method, aimed at selecting against protein-protein interactions (doi: 10.1093/nar/24.17.3341). The main change in the system was the use of a counterselectable reporter gene whose transcription and translation led to a toxic protein. As such, yeast that contained interacting proteins would die off, leaving only colonies harbouring non-interacting proteins. A final improvement merged the forward and reverse directions in a single system using the Ura3 reporter gene (doi: 10.1073/pnas.93.19.10315). On one hand, in a medium lacking uracil, Ura3 transcription is essential for growth. On the other hand, if one adds 5’-fluoroorotic acid (5FOA) to the medium, Ura3 transcription transforms it into a toxic metabolite, killing the cell. Therefore, one can plate the same yeast strain, on media lacking uracil to select for protein-protein interactions or on media with 5FOA to select against them. Nonetheless, existing rY2H systems still have numerous limitations, many of which we cover in the next section and in our results section.
 
+## Problems of existing rY2H systems (link to results)
+Existing rY2H systems have been of great importance in investigating which regions are important in protein-protein interactions. 
+
+**1. High rate of truncation mutations**
+The problem of high rates of truncation mutations arises when we consider that our workflow includes an error-prone PCR (epPCR) step, which in essence, introduces random mutations into CERK1. The easiest way for a mutation to disrupt the interaction between CERK1 and AvrPtoB is for it to be a truncating mutation. Such mutations fall into one of two categories: i) substitutions that change a codon specifying an amino acid to a stop codon, and ii) insertions or deletions which cause the downstream sequence to fall out-of-frame. Regardless of its type, truncating mutations almost always severely affect the protein’s structure, and in turn its function. Thus, truncating mutations are highly likely to result in a positive readout on the rY2H assay, but they are also just as likely to result in a non-functional CERK1 protein. Unfortunately, these mutations are also very common in rY2H assays, with more than 97% of positive colonies expected to contain truncated alleles (Gray et al., 2007). As the end goal of our project was to disrupt the CERK1-AvrPtoB interaction while keeping the original function of CERK1 intact, it was paramount to devise a way to select against truncating mutations. However, standard reverse yeast-two hybrid (rY2H) methods described by Vidal et al. or Leanna et al. are not equipped with a truncation-elimination system.
+
+**2. Mutual interference between the target protein and the anti-truncation fusion.**
+
+As truncating mutations are not a novel problem, over the years, several independent groups have already come up with rY2H methods capable of selecting against truncation mutations. All of them are based on covalently fusing a truncation-indicating protein at the C-terminus of the target protein. Examples include fluorescent proteins (Endoh et al., 2000), reporter genes like URA3 (Lickfeld & Schmitz, 2011), antibiotic resistance genes (Gray et al., 2007; Anaka, 2019), etc. Although the reported cases don’t show evidence of any mutual interference, it remains a potential problem whenever the system is applied to novel protein pairs. We will show that fusing proteins C-terminally of CERK1 significantly affects its interaction with AvrPtoB. This is also backed up by previous research showing that C-terminally fused proteins can affect PRR function (Hurst et al., 2018). 
+
+**3. The target gene is sometimes restricted to the AD vector to avoid truncation**
+
+To avoid both the truncation mutations and the mutual interference, Vincent et al. have proposed the reverse double yeast two-hybrid (RD2H), whose anti-truncation system relies on the PTAP peptide C-terminally fused to the prey protein and another yeast two-hybrid system that can detect the existence of the PTAP peptide. Unfortunately, this method restricts the target protein (CERK1 in our case) to be fused to the AD which, we will show (LINK), would interfere with the CERK1-AvrPtoB interaction. This restriction is also present in the One-plus Two-hybrid system developed by Kim et al..
 
 
 
+Therefore, we opted to develop a novel reverse yeast two-hybrid system, the Truncation Resistant and Universal Self-cleaving peptide Technology reverse yeast two-hybrid (TRUST-rY2H), which 1) selects against truncating mutations, 2) with only minimal mutual interference between the target protein and truncation indicating tag, and 3)  allows for target protein fusion to either AD or DBD (Figure whichever).
+
+## Variants of yeast two-hybrid: membrane protein yeast two-hybrid system
+Apart from the conventional yeast two-hybrid that harnesses the modularity of AD and DBD and the interaction happens in the nucleus, diverse genetic methods have been developed to test protein-protein interactions (Stynen et al., 2012). For example, the second most commonly used genetic method to study PPI is the split ubiquitin-based membrane protein yeast two-hybrid (MYTH) system, which is specially designed to study the interaction between membrane proteins (Iyer et al., 2005).
+
+The MYTH system is based on fusing the halves of ubiquitin to two interacting proteins, at least one of which is membrane-bound. Upon interaction of these two proteins, the halves of ubiquitin are brought together, cleaving the linker connecting the transcription factor to the system. Following cleavage, the transcription is free to enter the nucleus and activate the transcription of reporter genes (Iyer et al., 2005).
+
+<figure markdown>
+![Figure7](Background_figures/Figure_6.png)
+<figcaption>Figure 6. Schematic representation of MYTH in the case the proteins of interest interact (left) and don't interact (right). Taken from _Hybrigenics Services SAS_.</figcaption>
+</figure>
+
+To our knowledge, except the conventional Y2H, there is no reverse system successfully developed for other genetic PPI assays, only a failed attempt (Sahin, 2019). In terms of truncation elimination, some strategies are limited to the conventional Y2H (Kim et al., 2007; Vincent et al., 2020), some can potentially be used for other genetic PPI assays like MYTH but with the risk of impairing the interaction detection.
+
+PRRs are membrane-localized proteins.To better target PRRs, some effectors also have membrane localization, for example, AvrPto (Shan et al., 2000), which targets several PRRs and BAK1, the shared co-receptor and many PRRs. The interaction between AvrPto and BAK1 can be only detected by MYTH, but not the conventional Y2H in yeast (Shan et al., 2008), suggesting that MYTH is an indispensable method to study, as well as disrupt PRR-effector interactions 
 
 
 
