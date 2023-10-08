@@ -43,8 +43,8 @@ To help plants win the arms race, we are employing a Nobel Prize-winning technol
 
 We also:
 
- * Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins. (link to results)
- * Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions. (link to results)
+ * Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.
+ * Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.
 
 
 
