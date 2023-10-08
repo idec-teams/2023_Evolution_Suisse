@@ -134,7 +134,7 @@ Procedure:
    - Fill the syringe with the Agrobacterium culture.
    - Press the syringe into the underside of the plant leaf while using a finger to press against the top side of the leaf for efficient infiltration.
 
-# Golden Gate cloning (≈ prep 20min, digestion/ligation 4h30min)
+# Golden Gate cloning 
 
 The enzymes are found in the yellow
 Use online molar ratio calculator:
@@ -162,7 +162,7 @@ The only thing you realistically change is the number of cycles, if something is
 
 
 
-# Digestion/Ligation ( prep 1h, digestion 2h)
+# Digestion/Ligation 
 
  
 |  | 20ul System |
@@ -187,7 +187,7 @@ Digestion:
  
  
  
-ROS burst assay
+# ROS burst assay
 
 1. Preparation of Leaf Disks:
    - Cut leaf disks from Nicotiana benthamiana plants.
