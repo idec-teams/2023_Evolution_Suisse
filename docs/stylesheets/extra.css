@@ -2,5 +2,8 @@
     --md-primary-fg-color:        #42c6d2;
     --md-primary-fg-color--light: #b9e9f5;
     --md-primary-fg-color--dark:  #005e75;
+
+    --md-accent-fg-color:                hsla(#{hex2hsl(#0093a7)}, 1);
+    --md-accent-fg-color--transparent:   hsla(#{hex2hsl(#0093a7)}, 0.1);
   }
   
