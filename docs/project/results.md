@@ -53,41 +53,38 @@ We also tested whether other self-cleaving peptides, O2A and P2A, could do a bet
 
 We also used a fluorescent reporter strain (See LINK to reporter section for more details on the flow cytometry result) to precisely quantify the effects of different 2A peptides on CERK1-AvrPtoB interaction (**Fig. 6**). We got similar results as the plate assay, indicating that E2A is the best option.
 
-
-
 <figure markdown>
 ![Figure6](Result_figures/Figure_6.png)
 <figcaption>Figure 6. Differences between sample means in the flow-cytometry data were assessed using one-way ANOVA with Dunnett’s posthoc test; <0.01 (*), <0.0001(****). </figcaption>
-</figure>
-
-<figure markdown>
-![Figure7](Result_figures/Figure_7.png)
-<figcaption> Figure 7. The addition of E2A-BleoR is not sufficient to select against truncating mutations when colonies were selected for more than  48h post transformation.</figcaption>
 </figure>
 
 Lastly, we wanted to test whether the E2A-BleoR anti-truncation strategy was capable of selecting against truncations in practice. To do this, we manually introduced a stop codon, as well as a 1-bp deletion to the DNA sequence CERK1. 
 
 Initially, we did a Y2H plate assay starting from colonies which have been grown for >48h post transformation (**Fig. 7**). Unfortunately, the result shows that our system wasn’t capable of successfully selecting against truncation mutations, as evidenced by yeast growth on zeocin-containing plates.
 
+<figure markdown>
+![Figure7](Result_figures/Figure_7.png)
+<figcaption> Figure 7. The addition of E2A-BleoR is not sufficient to select against truncating mutations when colonies were selected for more than  48h post transformation.</figcaption>
+</figure>
 
+We then redid the assay by plating the yeast that have just been transformed with the plasmids harbouring the Y2H system, as would be done in our directed evolution workflow (**Fig. 8**). This time, the truncated mutant showed notably less growth, implying that our system works. This is perhaps due to the leaky expression of BleoR, which might be caused by sequences in CERK1 which resemble canonical translation start sites (Monteuuis et al., 2019). Over time, the leaky expression could lead to the accumulation of BleoR, allowing even the truncated mutants to grow on zeocin-containing plates. To overcome this, we plan to introduce D25A mutation to BleoR to compromise its activity by ~ 50% (Dumas et al., 1994), which has been proven useful in counteracting leaky expression (Tominaga et al., 2021). 
 <figure markdown>
 ![Figure8](Result_figures/Figure_8.png)
 <figcaption>Figure 8: When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
 </figure>
 
-We then redid the assay by plating the yeast that have just been transformed with the plasmids harbouring the Y2H system, as would be done in our directed evolution workflow (**Fig. 8**). This time, the truncated mutant showed notably less growth, implying that our system works. This is perhaps due to the leaky expression of BleoR, which might be caused by sequences in CERK1 which resemble canonical translation start sites (Monteuuis et al., 2019). Over time, the leaky expression could lead to the accumulation of BleoR, allowing even the truncated mutants to grow on zeocin-containing plates. To overcome this, we plan to introduce D25A mutation to BleoR to compromise its activity by ~ 50% (Dumas et al., 1994), which has been proven useful in counteracting leaky expression (Tominaga et al., 2021). 
-
-
-<figure markdown>
-![Figure9](Result_figures/Figure_9.png)
-<figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
-</figure>
 
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
 TABLE
 
 **Conclusion:** Fusing BleoR to proteins along with a self-cleaving peptide has minimal effect on the protein interaction and could, with further optimisation, provide adequate truncation resistance.
+
+
+<figure markdown>
+![Figure9](Result_figures/Figure_9.png)
+<figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
+</figure>
 
 <figure markdown>
 ![Figure10](Result_figures/Figure_10.png)
