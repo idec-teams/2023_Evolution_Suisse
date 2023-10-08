@@ -9,6 +9,9 @@ theme:
     primary: custom
     accent: green
 
+  font:
+    text: Urbanist 
+
   features:
     - navigation.sections
 
