@@ -1,5 +1,24 @@
-# Results
+## Achievements
+Key achievements:
 
+Pioneered using directed evolution technology to create disease resistant crops
+
+Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors
+
+[Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions.](#Development of TRUST-rY2H, a novel reverse yeast two-hybrid system)
+
+[Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.] (#In silico prediction of interaction-disrupting mutations)
+
+[Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants in plants.] (#In planta screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana)
+
+We also:
+
+[Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.] (#Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation machine
+)
+
+[Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.] (#reporters)
+Results
+# Results
 ## AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses
 
 Effectors often target PRRs, the CERK1-AvrPtoB interaction seems to be an exception. To be able to disrupt the interaction, we first need to verify that AvrPtoB indeed targets CERK1 and analyse the effect of AvrPtoB on the CERK1 mediate immune response.
@@ -34,12 +53,12 @@ As mentioned, the interaction between DBD-CERK1 and AD-AvrPtoB cannot be seen wh
 ![Figure3](Result_figures/Figure_3.png)
 <figcaption> Figure 3. Schematic explanation of the TRUST-rY2H system (upper panel) and its behaviour depending on the interaction state and selective media used (lower panels).</figcaption>
 </figure>
-We originally fused the BleoR to CERK1 by using a (GS)3 linker, a long stretch of glycine and serine residues, but this approach disrupted both the CERK1-AvrPtoB interaction, as well as BleoR anti-zeocin activity. This mutual interference was almost certainly due to the proximity of BleoR and the CERK1-AvrPtoB interaction complex. We hypothesised that this issue could be solved by using a self-cleaving peptide, E2A, which would separate CERK1 and BleoR once they had been translated (see **Fig. 3** for a schematic representation). A rY2H assay (**Fig. 4**) shows that the version with the (GS)3 linker, compared to the one using E2A, clearly exhibited worse growth on -Ura and +Zeocin plates, indicating the lack of CERK1-AvrPtoB interaction and BleoR activity, respectively. This confirmed that using E2A considerably reduced the interference BleoR and the CERK1-AvrPtoB complex had on each other. 
+We originally fused the BleoR to CERK1 by using a (GS)<sub>3</sub>sub> linker, a long stretch of glycine and serine residues, but this approach disrupted both the CERK1-AvrPtoB interaction, as well as BleoR anti-zeocin activity. This mutual interference was almost certainly due to the proximity of BleoR and the CERK1-AvrPtoB interaction complex. We hypothesised that this issue could be solved by using a self-cleaving peptide, E2A, which would separate CERK1 and BleoR once they had been translated (see **Fig. 3** for a schematic representation). A rY2H assay (**Fig. 4**) shows that the version with the (GS)<sub>3</sub>sub> linker, compared to the one using E2A, clearly exhibited worse growth on -Ura and +Zeocin plates, indicating the lack of CERK1-AvrPtoB interaction and BleoR activity, respectively. This confirmed that using E2A considerably reduced the interference BleoR and the CERK1-AvrPtoB complex had on each other. 
 
 
 <figure markdown>
 ![Figure4](Result_figures/Figure_4.png)
-<figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)3 linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
+<figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)<sub>3</sub>sub> linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
 We also tested whether other self-cleaving peptides, O2A and P2A, could do a better job. However, we found E2A to be the most effective (**Fig. 5**).
@@ -100,7 +119,7 @@ New machine-learning based technologies are at the forefront of PPI predictions 
 
 **Aim: **Predict the interaction between CERK1 and AvrPtoB to identify potential mutations to disrupt interaction
 
-Using AlphaFold-Multimer, an artificial intelligence tool specialised for predicting protein-protein complexes, to predict the CERK1-AvrPtoB interaction at an atomic level (Fig. 9 left). Having a 3D model of the CERK1-AvrPtoB interaction complex, we could start investigating the binding interface - the area on the two proteins that interact with each other. Unfortunately, the prediction obtained using AlphaFold-multimer didn’t have a satisfactory model confidence, i.e., certain areas could have been predicted wrong. As all of our downstream work depends on the accuracy of the interaction complex prediction, we opted to try other prediction tools, namely ColabFold. Additionally, one of the possible culprits behind this low model confidence were long, intrinsically disordered regions in both CERK1 and AvrPtoB (**Fig. 9** right). These parts of the protein didn’t participate in the interaction itself, and didn’t have any clear 3D structure of their own, making it difficult for the model to accurately describe them. To make sure they didn’t interfere with the protein complex prediction, we removed for the second round of predictions. These two choices paid of in the end, as the second prediction ended up with satisfactory model confidence, allowing us to proceed with the analysis.
+Using AlphaFold-Multimer, an artificial intelligence tool specialised for predicting protein-protein complexes, to predict the CERK1-AvrPtoB interaction at an atomic level (**Fig. 9** left). Having a 3D model of the CERK1-AvrPtoB interaction complex, we could start investigating the binding interface - the area on the two proteins that interact with each other. Unfortunately, the prediction obtained using AlphaFold-multimer didn’t have a satisfactory model confidence, i.e., certain areas could have been predicted wrong. As all of our downstream work depends on the accuracy of the interaction complex prediction, we opted to try other prediction tools, namely ColabFold. Additionally, one of the possible culprits behind this low model confidence were long, intrinsically disordered regions in both CERK1 and AvrPtoB (**Fig. 9** right). These parts of the protein didn’t participate in the interaction itself, and didn’t have any clear 3D structure of their own, making it difficult for the model to accurately describe them. To make sure they didn’t interfere with the protein complex prediction, we removed for the second round of predictions. These two choices paid of in the end, as the second prediction ended up with satisfactory model confidence, allowing us to proceed with the analysis.
 
 <figure markdown>
 ![Figure9](Result_figures/Figure_9.png)
@@ -109,21 +128,21 @@ Using AlphaFold-Multimer, an artificial intelligence tool specialised for predic
 
 Looking at the 3D structure, we first found residues in the two proteins that interacted with each other, i.e., were at an acceptable distance from each other or had physio-chemical properties facilitating interactions, such as opposing polarities. Then, within the binding interface, we found residues in CERK1 that interacted with particularly many residues in AvrPtoB. If we could mutate these residues, they might severely affect the stability of the interaction complex, without causing a big change to CERK1 itself. We made sure to avoid functionally important regions of CERK1, as to keep its immune function intact. Lastly, to make sure given mutations do not completely destabilise the global CERK1 structure, we used an additional AI tool called Protein MPNN. This multipronged approach resulted in the following seven mutations: L462S, R474E, F480K, M483R, V488K, V515M, and F525T.
 
-To validate our predictions, we ran a Y2H assay in both forward and reverse direction (Fig. 10). Variants which grew on plates lacking uracil, but failed to grow those containing 5-FOA, failed to disrupt the CERK1-AvrPtoB interaction, and vice versa. Out of the seven computationally predicted mutants, five (L462S, M483R, F480K, V488K, V515M) successfully disrupted this interaction. This result highlights the importance of computational models in predicting promising site-directed mutagenesis targets.
+To validate our predictions, we ran a Y2H assay in both forward and reverse direction (**Fig. 10**). Variants that grew on plates lacking uracil, but failed to grow those containing 5-FOA, failed to disrupt the CERK1-AvrPtoB interaction, and vice versa. Out of the seven computationally predicted mutants, five (L462S, M483R, F480K, V488K, V515M) successfully disrupted this interaction. This result highlights the importance of computational models in predicting promising site-directed mutagenesis targets.
 
 <figure markdown>
 ![Figure10](Result_figures/Figure_10.png)
 <figcaption> Figure 10. Experimental validation of in silico predicted mutations that disrupt CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
-**Conclusion:** The interaction between AvrPtoB and CERK1 were successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
+**Conclusion:** The interaction between AvrPtoB and CERK1 was successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
 
 
 ## _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana
 
 Loss of interaction with AvrPtoB can be accompanied by loss of kinase activity. This concern is based on the site-directed mutagenesis analysis of AvrPtoB-BAK1 interaction, where many BAK1 mutants that lost interaction with AvrPtoB also lost their kinase activities (Cheng et al., 2011).
 
-For CERK1, we found that two frequently used kinase-dead mutants, D441V and K350N, either lost or exhibited reduced interaction with AvrPtoB, respectively (Fig. 11). This result suggested that CERK1’s kinase activity and its interaction with AvrPtoB might be also closely correlated. Consequently, there was a need for a screening method, able to efficiently detect unimpaired CERK1 kinase activity.
+For CERK1, we found that two frequently used kinase-dead mutants, D441V and K350N, either lost or exhibited reduced interaction with AvrPtoB, respectively (**Fig. 11**). This result suggested that CERK1’s kinase activity and its interaction with AvrPtoB might be also closely correlated. Consequently, there was a need for a screening method, able to efficiently detect unimpaired CERK1 kinase activity.
 
 
 <figure markdown>
@@ -134,7 +153,7 @@ For CERK1, we found that two frequently used kinase-dead mutants, D441V and K350
 
 **Aim:** Develop an efficient screening approach to check the functionality of CERK1 variants in plants.
 
-To screen for CERK1 variants that retained their kinase activities, we used the fact that overexpression of functional CERK1 in Nicotiana benthamiana leads to cell death (Pietraszewska-Bogiel et al., 2013; Suzuki et al., 2018). To this end, CERK1 variants are transiently expressed in wild-type N. benthamiana under a strong and constitutive 35S promoter. Those variants whose transient expression leads to a cell death phenotype should retain the kinase activity (Figure 12).
+To screen for CERK1 variants that retained their kinase activities, we used the fact that overexpression of functional CERK1 in Nicotiana benthamiana leads to cell death (Pietraszewska-Bogiel et al., 2013; Suzuki et al., 2018). To this end, CERK1 variants are transiently expressed in wild-type N. benthamiana under a strong and constitutive 35S promoter. Those variants whose transient expression leads to a cell death phenotype should retain the kinase activity (**Fig. 12**).
 
 <figure markdown>
 ![Figure12](Result_figures/Figure_12.png)
@@ -150,7 +169,7 @@ We initially tested our system using the wildtype CERK1 and CERK1D441V one of th
 </figcaption>
 </figure>
 
-Active CERK1 variants will be subjected to a second round of in planta screening designed to screen for real AvrPtoB-resistant CERK1 variants (Figure 14). This round of screening will be conducted using a N. benthamiana line which doesn’t produce its native CERK1 (NbCERK1). This was achieved through virus-induced gene silencing (VIGS). These silenced plants produce no CERK1, so we are able to express and test our CERK1 variants in them. Our CERK1 variants will be expressed using the native promoter (ProCERK1), ensuring a low enough expression level to avoid cell death, but high enough to result in a measurable ROS burst in response to chitin treatment. At the same time, AvrPtoB will be also expressed using an estradiol-inducable promoter. By comparing the chitin-triggered ROS bursts of mock and estradiol treatment groups, we can determine whether the CERK1 variant is resistant to AvrPtoB (Figure 14).
+Active CERK1 variants will be subjected to a second round of in planta screening designed to screen for real AvrPtoB-resistant CERK1 variants (**Fig. 14**). This round of screening will be conducted using a N. benthamiana line which doesn’t produce its native CERK1 (NbCERK1). This was achieved through virus-induced gene silencing (VIGS). These silenced plants produce no CERK1, so we are able to express and test our CERK1 variants in them. Our CERK1 variants will be expressed using the native promoter (ProCERK1), ensuring a low enough expression level to avoid cell death, but high enough to result in a measurable ROS burst in response to chitin treatment. At the same time, AvrPtoB will be also expressed using an estradiol-inducable promoter. By comparing the chitin-triggered ROS bursts of mock and estradiol treatment groups, we can determine whether the CERK1 variant is resistant to AvrPtoB (**Fig.14**).
 
 <figure markdown>
 ![Figure14](Result_figures/Figure_14.png)
@@ -158,7 +177,7 @@ Active CERK1 variants will be subjected to a second round of in planta screening
 </figcaption>
 </figure>
 
-Once again, time constraints did not allow us to test variants, but we were able to show that we had successfully silenced the native CERK1 genes. We did this by performing a ROS burst assay, where the silenced plants showed no response to chitin when compared to non-VIGS plants (Figure 15).
+Once again, time constraints did not allow us to test variants, but we were able to show that we had successfully silenced the native CERK1 genes. We did this by performing a ROS burst assay, where the silenced plants showed no response to chitin when compared to non-VIGS plants (**Fig. 15**).
 
 
 <figure markdown>
@@ -168,3 +187,39 @@ Once again, time constraints did not allow us to test variants, but we were able
 </figure>
 
 **Conclusion:** We successfully designed a two-round screening approach to rapidly screen for functional and AvrPtoB-resistant CERK1 variants in plants.
+
+## Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation strategy
+
+As already mentioned in the Background section, aside from the conventional Y2H systems, many genetic methods have been developed to study protein-protein interactions. One popular approach is the split-ubiquitin membrane protein yeast two-hybrid (MYTH). Unfortunately, the system is currently usable only in the forward direction, with no successfully developed reverse variations. Therefore, we strived to develop a reverse MYTH system using the E2A-BleoR strategy to eliminate truncation mutations.
+
+Aim: Develop an assay to disrupt the interaction between membrane proteins and prove that the E2A-BleoR anti-truncation strategy can be extensively applied to different genetic PPI assays.
+
+To allow our novel MYTH system to run in both directions we chose to base it on the _Ura3_ reporter gene (Link to reverse Y2H part in introduction). To that end, we repurposed the FRY1537 yeast strain (Ottoz et al., 2014), which already carries a _Ura3_ gene driven by a synthetic promoter that can be activated by the LexA-VP16 synthetic transcription factor. With this, we had all the components for the rMYTH system, they just required a bit of putting together. To obtain results that are a bit more quantitative than the yeast plate assays, we also constructed a fluorescence-based yeast strain. In the case of protein-protein interaction, this yeast will emit fluorescence, which can be easily measured using a flow cytometer or a plate reader.
+
+As a proof-of-concept, we used two well-studied single-pass membrane proteins in the plant immune systems, BAK1 and BIR2, to test our rMYTH system (**Fig. 16A**). BAK1 and BIR2 have been reported to interact with each other through both extracellular and intracellular domains (Ma et al., 2017; Halter et al., 2014). As the residues on the interaction surfaces were previously identified, we generated mutations on some of these residues to disrupt either extracellular or intracellular interaction or both of them (**Fig. 16B**). 
+
+<figure markdown>
+![Figure16](Result_figures/Figure_16.png)
+<figcaption> Figure 16. (A) Schematic diagram of the rMYTH design used for selection of loss-of-interaction mutations on the plate with 0.5 mg/mL 5-FOA. (B) BAK1 and BIR2 with interaction-disrupting mutations are used to test the rMYTH system.
+</figcaption>
+</figure>
+
+Different mutations resulted in BAK1-BIR2 pairs with different levels of interaction strength, which were quantified by the fluorescence readout (**Fig. 17** rightmost bar plot). As shown in the plate assay results (**Fig. 17**), there was a positive correlation between the interaction strength and the cell growth on the plate without uracil, while the 5-FOA plate showed an opposite trend. These results suggest the success of repurposing FRY1537 as a reporter strain for rMYTH.
+
+<figure markdown>
+![Figure17](Result_figures/Figure_17.png)
+<figcaption> Figure 17. E2A-BleoR can be fused after either Nub or Cub-LexA-VP16 without or only mildly affecting BAK1-BIR2 interaction
+Differences between sample means in the flow-cytometry data were assessed using one-way ANOVA with Dunnett’s post-hoc test; <0.01 (*), <0.0001(****)
+</figcaption>
+</figure>
+
+We then tested whether the E2A-BleoR anti-truncation strategy can be also applied to rMYTH (**Fig. 18**) E2A-BleoR and (GS)<sub>3</sub>-BleoR were fused after Cub-LexA-VP16 for the bait construct and after Nub for the prey construct, respectively. The fusions of E2A-BleoR after Nub and Cub-LexA-VP16 had no effect and a neglectable negative effect on BAK1-BIR2 interaction, respectively. For (GS)<sub>3</sub>-BleoR, a 50% decrease of interaction strength was observed when it was fused after the Nub, suggesting that the covalent fusion severely interfered with the detection of interaction. When  (GS)<sub>3</sub>-BleoR was fused after the Cub-LexA-VP16, an increase in the interaction strength was observed, which implies that (GS)<sub>3</sub>-BleoR can cause false positive results, perhaps because of the homodimerization of BleoR (Dumas et al., 1994).
+
+<figure markdown>
+![Figure18](Result_figures/Figure_18.png)
+<figcaption> Figure 18. Fusion of E2A-BleoR after Nub or Cub-LexA-VP16 has little consequence on interaction
+</figcaption>
+</figure>
+
+**Conclusion:** We successfully developed TRUST-rMYTH, a reverse split-ubiquitin membrane protein yeast two-hybrid system equipped with E2A-BleoR anti-truncation strategy, which can be used to disrupt interactions between membrane-bound proteins while avoiding truncations.
+
