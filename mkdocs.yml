@@ -57,6 +57,7 @@ nav:
       - Background: project/background.md
       - Results: project/results.md
       - Outlook: project/Outlooks.md
+      - References: project/references.md
   - Documentation:
       - Protocols: documentation/protocols.md
       - Lab Notebook: documentation/notebook.md
