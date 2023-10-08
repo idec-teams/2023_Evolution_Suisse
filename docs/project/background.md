@@ -50,7 +50,7 @@ We decided to tackle these problems using directed evolution to evolve plant rec
 Yeast two-hybrid (Y2H) is the oldest and one of the most popular genetic methods used to identify protein-protein interactions in live yeast cells (Fields & Song, 1989). This method takes advantage of the fact that transcription factors are modular in nature. Namely, they contain distinct activation (AD) and DNA-binding domains (DBD), responsible for activating transcription and binding promoter DNA sequences, respectively. One can exploit this by fusing AD to protein A (also called prey in the field) and DBD to protein B (also called bait). In case proteins A and B interact with each other, they will bring the AD and DBD close to one another, allowing for them to activate the transcription of reporter genes (Fig. something right). To make sure this system expresses the correct gene, reporter genes used contain a DBD-binding motif (also called upstream activating sequence or UAS) within its promoter sequence. Reporter genes are genes whose transcription generates easily detectable results. For example, the expression of LacZ normally causes white yeast colonies to turn blue when grown on media containing X-gal, while the expression of Ura3 allows yeast to grow on media lacking uracil, an essential metabolite. What we described is the so-called forward direction in the Y2H system which is, again, designed to detect protein-protein interactions.
 
 <figure markdown>
-![Figure6](Background_figures/Y2H_explained_supp.png)
+![Figure6](Background_figures/Y2H_explained_basic_2.png)
 <figcaption>Figure 6. Schematic representation of the forward and reverse directions in the yeast two-hybrid assay</figcaption>
 </figure>
 
