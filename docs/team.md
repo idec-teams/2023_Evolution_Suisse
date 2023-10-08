@@ -10,7 +10,7 @@ hide:
 <div class="image-grid">
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Julien.jpg" alt="Julien" style="height:375px;width:300px">
-    <span>Julien <br>
+    <span> **Julien<br>
        it's past his bedtime</span>
   </div>
   <div class="image-item">
@@ -35,13 +35,12 @@ hide:
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/SongyuanZ.jpg" alt="SongyuanZ" style="height:375px;width:300px">
-    <span>dSongyuan Zhang <br> lives in the lab</span>
+    <span> Songyuan Zhang <br> lives in the lab</span>
   </div>
   <div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/fotoshoot_reduced/Sasha.jpg" alt="Sasha" style="height:375px;width:300px">
     <span> Sasha <br> Getting millions in funding</span>
   </div>
-</div>
 
   <div class="image-item">
     <img src="https://github.com/idec-teams/2023_Evolution_Suisse/blob/main/docs/img/team/cyril_zipfel.jpg" alt="Cyril" style="height:375px;width:300px">
