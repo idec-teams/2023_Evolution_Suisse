@@ -5,17 +5,17 @@ Key achievements:
 
 * Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors
 
-* [Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions.](#Development of TRUST-rY2H, a novel reverse yeast two-hybrid system)
+* [Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions.](##Development of TRUST-rY2H, a novel reverse yeast two-hybrid system)
 
-* [Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.] (#_In silico_ prediction of interaction-disrupting mutations)
+* [Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.] (##_In silico_ prediction of interaction-disrupting mutations)
 
-* [Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants in plants.] (# _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana)
+* [Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants in plants.] (## _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana)
 
 We also:
 
-* [Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.] (#Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation strategy)
+* [Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins.] (##Development of TRUST-rMYTH, a reverse split ubiquitin-based membrane protein yeast two-hybrid system with E2A-BleoR anti-truncation strategy)
 
-* [Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.] (#Construction of fluorescent reporter strains to quantitatively measure interaction strength )
+* [Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions.] (##Construction of fluorescent reporter strains to quantitatively measure interaction strength )
 
 # Results
 ## AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses
@@ -42,7 +42,7 @@ To follow this up, we wanted to ensure that AvrPtoB did indeed impair the immune
 
 ## Development of TRUST-rY2H, a novel reverse yeast two-hybrid system
 
-Original rY2H methods are unable to distinguish between informative interaction-disruption mutations, and false positives resulting from truncating mutations. Unfortunately, the systems that do resist truncations, such as the RD2H, are rigid in their design, not allowing the exchange of DBD and AD between the proteins of interest (Link to section on background). This lack of flexibility can be detrimental when analysing certain protein-protein interactions (PPI), as the DBD or AD can hinder the interaction, leading to false-negative results as already seen in our [initial experiments](##Development of TRUST-rY2H, a novel reverse yeast two-hybrid system).
+Original rY2H methods are unable to distinguish between informative interaction-disruption mutations, and false positives resulting from truncating mutations. Unfortunately, the systems that do resist truncations, such as the RD2H, are rigid in their design, not allowing the exchange of DBD and AD between the proteins of interest. This lack of flexibility can be detrimental when analysing certain protein-protein interactions (PPI), as the DBD or AD can hinder the interaction, leading to false-negative results as already seen in our [initial experiments](##AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses).
 
 **Aim:** Develop a novel rY2H system, capable of selecting against truncating mutations and flexible with AD and DBD fusions, to disrupt the CERK1-AvrPtoB interaction.
 
@@ -69,7 +69,7 @@ We also tested whether other self-cleaving peptides, O2A and P2A, could do a bet
  </figcaption>
 </figure>
 
-We also used a fluorescent reporter strain (See LINK to reporter section for more details on the flow cytometry result) to precisely quantify the effects of different 2A peptides on CERK1-AvrPtoB interaction (**Fig. 6**). We got similar results as the plate assay, indicating that E2A is the best option.
+We also used a [fluorescent reporter strain](##Construction of fluorescent reporter strains to quantitatively measure interaction strength ) to precisely quantify the effects of different 2A peptides on CERK1-AvrPtoB interaction (**Fig. 6**). We got similar results as the plate assay, indicating that E2A is the best option.
 
 <figure markdown>
 ![Figure6](Result_figures/Figure_6.png)
@@ -94,7 +94,7 @@ We then redid the assay by plating the yeast that have just been transformed wit
 
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
-TABLE
+||System avoids truncations|Single step selection|Protein of interest can be fused to both the activating domain and DNA binding  domain|Compatible with membrane systems (split ubiquitin system)|
 
 **Conclusion:** Fusing BleoR to proteins along with a self-cleaving peptide has minimal effect on the protein interaction and could, with further optimisation, provide adequate truncation resistance.
 
