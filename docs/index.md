@@ -3,29 +3,29 @@
 
 ## Challenge
 
-Crop diseases caused by pathogens and pests pose a global burden on agriculture, reducing harvest by up to 40% [^1], ultimately impacting the economy and environment[^2][^3]. 
-Currently, pesticides are used to protect crops, however, they negatively impact the  environment and pose health risks to humans[^4]. Therefore, developing  disease-resistant crops remains a challenge that demands innovative solutions and  research.  
+**Crop diseases** caused by pathogens and pests pose a global burden on agriculture, reducing harvest by up to 40% [^1], ultimately impacting the economy and environment[^2][^3]. 
+Currently, pesticides are used to protect crops, however, they negatively impact the  environment and pose health risks to humans[^4]. Therefore, developing  **disease-resistant crops** remains a challenge that demands innovative solutions and  research.  
 
-Like humans, plants also have a built in immune system to protect themselves from pathogens. This defence system relies on proteins called Pattern Recognition Receptors (PRRs), the security guards of plant cells. They perceive certain molecular patterns associated with pathogens, and pull the alarm by initiating a series of immune responses [^5].
+Like humans, plants also have a built in immune system to protect themselves from pathogens. This defence system relies on proteins called **Pattern Recognition Receptors (PRRs)**, the security guards of plant cells. They perceive certain molecular patterns associated with pathogens, and pull the alarm by initiating a series of immune responses [^5].
 
-To counteract the plant's immune system, pathogens can introduce proteins called effectors into the plant cells to inhibit PRRs (as well as other immune proteins) and even degrade them, via protein-protein interactions[^6].
+To counteract the plant's immune system, pathogens can introduce proteins called **effectors** into the plant cells to inhibit PRRs (as well as other immune proteins) and even degrade them, via **protein-protein interactions**[^6].
 
 To counteract effectors, plants can elude the attacks by effectors, by generating mutations to disrupt the protein-protein interactions between effectors and the targets.
 
-The endless arms race between plants and pathogens is a perfect example of evolution. Due to the slow growth of plants and the fast proliferation of pathogens, plants evolve much slower than pathogens. Therefore, it’s difficult for us to search for resistant plants from nature, and pathogens can easily overcome plant’s resistance. 
+The endless arms race between plants and pathogens is a perfect example of **evolution**. Due to the slow growth of plants and the fast proliferation of pathogens, plants evolve much slower than pathogens. Therefore, it’s difficult for us to search for resistant plants from nature, and pathogens can easily overcome plant’s resistance. 
 
 ## Our Approach
-To help plants win the arms race, we are employing a Nobel Prize-winning technology, Directed Evolution, which enables millions of years of evolution to be achieved in the lab in one week. We aim to use directed evolution to disrupt the PRR-effector interaction, creating PRRs resistant to effectors’ attacks.
+To help plants win the arms race, we are employing a Nobel Prize-winning technology, **Directed Evolution**, which enables millions of years of evolution to be achieved in the lab in one week. We aim to use directed evolution to **disrupt the PRR-effector interaction**, creating PRRs resistant to effectors’ attacks.
 
 ## Our workflow:
 
-1. Reconstruct/simulate PRR-effector interaction in yeast cells and computer models. 
+1. Reconstruct/simulate PRR-effector interaction in **yeast cells** and **computer models**.
 
-2. Use Reverse Yeast Two-Hybrid and Machine learning to select/screen for PRR variants carrying interaction-disrupting mutations. 
+2. Use **Reverse Yeast Two-Hybrid** and **Machine learning** to select/screen for PRR variants carrying interaction-disrupting mutations. 
 
-3. Test the PRR variants in plants to screen for mutations preserving PRR’s functions.
+3. Test the PRR variants in plants to screen for mutations **preserving** PRR’s functions.
 
-4. Introduce qualified mutations to crops using precise genome editing technology, resulting in non-GMO crops with enhanced disease resistance.
+4. Introduce qualified mutations to crops using **precise genome editing technology**, resulting in **non-GMO crops** with enhanced disease resistance.
 
 ## Key achievements:
  * Pioneered using directed evolution technology to create disease resistant crops
