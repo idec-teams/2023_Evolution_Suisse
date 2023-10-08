@@ -25,7 +25,7 @@
 </figure>
 
 <figure markdown>
-![SongyuanZ](img/team/fotoshoot_reduced/SongyuanL.jpg){: style="height:375px;width:300px"}
+![SongyuanZ](img/team/fotoshoot_reduced/SongyuanZ.jpg){: style="height:375px;width:300px"}
 <figcaption>Away... Actually he just realised he is not away</figcaption>
 </figure>
 
