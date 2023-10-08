@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+---
+
+
 # Engineering Pathogen-Resistant Crops using Directed Evolution
 
 

@@ -59,7 +59,6 @@ nav:
       - Outlook: project/outlooks.md
   - Documentation:
       - Protocols: documentation/protocols.md
-      - Lab notebook: documentation/notebook.md
-  - Report: report.pdf
+      - Lab Notebook: documentation/notebook.md
+      - Download Report: files/report.pdf
   - Team: team.md
-  - Some useful features: useful_features.md
