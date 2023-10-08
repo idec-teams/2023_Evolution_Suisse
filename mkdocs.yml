@@ -2,8 +2,8 @@ site_name: Evolution Suisse
 
 theme:
   name: material
-  logo: img/Logo .png
-  favicon: img/Logo Transparent.png
+  logo: img/Logo.png
+  favicon: img/favicon.png
 
   palette:
     primary: custom
