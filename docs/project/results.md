@@ -94,6 +94,11 @@ We then redid the assay by plating the yeast that have just been transformed wit
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
 **Table 1.** Comparison of TRUST-rY2H to previous methods 
+<figure markdown>
+![Figure8](Result_figures/Table_figure_1.png)
+</figure>
+
+
 | | System avoids truncations|Single step selection | Protein of interest can be fused to both the activating domain and DNA binding  domain | Compatible with membrane systems (split ubiquitin system) |
 | --- | --- | --- | --- | --- |
 | **Original rY2H**| - | - | - | + |
@@ -114,6 +119,9 @@ The TRUST-rY2H is ready. Now it’s time to use it to achieve our goal, disrupti
 We performed mutagenesis on CERK1 using error-prone PCR, and subjected the mutagenesis library to TRUST-rY2H to select for mutations that disrupt CERK1-AvrPtoB interaction. For comparison, we also run a classic rY2H in parallel, which is without an anti-truncation system. Ten colonies from each screen were sequenced to identify mutations (Table 2). Three out of ten colonies from TRUST-rY2H were false positives with nonsense mutations (stop codons), while the classic rY2H screen produced two such false positives. Interestingly, only two mutations (S444F and G461R) were located in or close to the predicted interaction interface. Other mutations were dispersed throughout the whole protein sequence, suggesting a diverse array of mutations impacting the interaction beyond the predicted interaction surface.
 
 **Table 2.** Summary of CERK1 variants obtained from the reverse yeast two-hybrid assays. Each line shows mutations found in a single epPCR colony. Notation R415G means R to G substitution in 415th amino acid. Star denotes a stop codon. Mutations in the interaction regions are underlined.  
+<figure markdown>
+![Figure8](Result_figures/Table_figure.png)
+</figure>
 | **Classic rY2H without anti-truncation** | **TRUST-rY2H** |
 | --- | --- | 
 |S510P <br> L398P <br> G502E <br> S444F <br> G461R <br> F267L <br> L363Q <br> G569R <br> C381W|R415G <br> A521T <br> Y337C <br> F533S <br> F359S <br> K349R|
