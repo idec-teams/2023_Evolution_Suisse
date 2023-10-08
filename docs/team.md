@@ -43,7 +43,7 @@ hide:
   </div>
 
   <div class="image-item">
-    <img src="https://github.com/idec-teams/2023_Evolution_Suisse/blob/main/docs/img/team/cyril_zipfel.jpg" alt="Cyril" style="height:375px;width:300px">
+    <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/cyril_zipfel.jpg" alt="Cyril" style="height:375px;width:300px">
     <span> Cyril Zipfel </span>
   </div>
 </div>
