@@ -6,7 +6,7 @@ theme:
   favicon: img/Logo Transparent.png
 
   palette:
-    primary: light green
+    primary: custom
     accent: green
 
   features:
