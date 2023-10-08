@@ -80,16 +80,44 @@ TABLE
 
 **Conclusion:** Fusing BleoR to proteins along with a self-cleaving peptide has minimal effect on the protein interaction and could, with further optimisation, provide adequate truncation resistance.
 
+## Disruption of CERK1-AvrPtoB interaction using TRUST-rY2H
+
+The TRUST-rY2H is ready. Now it’s time to use it to achieve our goal, disrupting CERK1-AvrPtoB interaction.
+
+**Aim:** Use TRUST-rY2H to disrupt CERK1-AvrPtoB interaction.
+
+We performed mutagenesis on CERK1 using error-prone PCR, and subjected the mutagenesis library to TRUST-rY2H to select for mutations that disrupt CERK1-AvrPtoB interaction. For comparison, we also run a classic rY2H in parallel, which is without an anti-truncation system. Ten colonies from each screen were sequenced to identify mutations (Table 2). Three out of ten colonies from TRUST-rY2H were false positives with nonsense mutations (stop codons), while the classic rY2H screen produced two such false positives. Interestingly, only two mutations (S444F and G461R) were located in or close to the predicted interaction interface. Other mutations were dispersed throughout the whole protein sequence, suggesting a diverse array of mutations impacting the interaction beyond the predicted interaction surface.
+
+TABLE
+
+It seems that TRUST-rY2H underperforms the classic rY2H, however, it is noteworthy that the truncation rate in the classic rY2H (20%) is far lower than reported (>97%) (Barr et al., 2004, Gray et al., 2007). One possibility is that some of the hits are false positives. This can be because of mutations disrupting DBD, promoter, and Ura3 gene, which can also lead to a 5-FOA-resistant phenotype. Therefore, we need to confirm these mutations by performing a round of forward Y2H. Another possibility is that CERK1-AvrPtoB is sensitive to mutations, i.e., among all the potential interaction-disruption mutations, there are many more non-truncation mutations than truncation mutations. Such results could also be due to stochastic colony picking and requires more colonies to achieve statistical robustness.
+
+**Conclusion:** We successfully identified mutations on CERK1 that disrupt its interaction with AvrPtoB using both TRUST-rY2H and classic rY2H. We need to sequence and validate more colonies to statistically compare the performance of TRUST-rY2H and classic rY2H.
+
+
+## _In silico_ prediction of interaction-disrupting mutations
+New machine-learning based technologies are at the forefront of PPI predictions and simulations. We decided to use this to our advantage by predicting the CERK1-AvrPtoB interaction to identify key amino acids that could be mutated in a site-directed manner to disrupt the interaction.
+
+**Aim: **Predict the interaction between CERK1 and AvrPtoB to identify potential mutations to disrupt interaction
+
+Using AlphaFold-Multimer, an artificial intelligence tool specialised for predicting protein-protein complexes, to predict the CERK1-AvrPtoB interaction at an atomic level (Fig. 9 left). Having a 3D model of the CERK1-AvrPtoB interaction complex, we could start investigating the binding interface - the area on the two proteins that interact with each other. Unfortunately, the prediction obtained using AlphaFold-multimer didn’t have a satisfactory model confidence, i.e., certain areas could have been predicted wrong. As all of our downstream work depends on the accuracy of the interaction complex prediction, we opted to try other prediction tools, namely ColabFold. Additionally, one of the possible culprits behind this low model confidence were long, intrinsically disordered regions in both CERK1 and AvrPtoB (**Fig. 9** right). These parts of the protein didn’t participate in the interaction itself, and didn’t have any clear 3D structure of their own, making it difficult for the model to accurately describe them. To make sure they didn’t interfere with the protein complex prediction, we removed for the second round of predictions. These two choices paid of in the end, as the second prediction ended up with satisfactory model confidence, allowing us to proceed with the analysis.
 
 <figure markdown>
 ![Figure9](Result_figures/Figure_9.png)
 <figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
 </figure>
 
+Looking at the 3D structure, we first found residues in the two proteins that interacted with each other, i.e., were at an acceptable distance from each other or had physio-chemical properties facilitating interactions, such as opposing polarities. Then, within the binding interface, we found residues in CERK1 that interacted with particularly many residues in AvrPtoB. If we could mutate these residues, they might severely affect the stability of the interaction complex, without causing a big change to CERK1 itself. We made sure to avoid functionally important regions of CERK1, as to keep its immune function intact. Lastly, to make sure given mutations do not completely destabilise the global CERK1 structure, we used an additional AI tool called Protein MPNN. This multipronged approach resulted in the following seven mutations: L462S, R474E, F480K, M483R, V488K, V515M, and F525T.
+
+To validate our predictions, we ran a Y2H assay in both forward and reverse direction (Fig. 10). Variants which grew on plates lacking uracil, but failed to grow those containing 5-FOA, failed to disrupt the CERK1-AvrPtoB interaction, and vice versa. Out of the seven computationally predicted mutants, five (L462S, M483R, F480K, V488K, V515M) successfully disrupted this interaction. This result highlights the importance of computational models in predicting promising site-directed mutagenesis targets.
+
 <figure markdown>
 ![Figure10](Result_figures/Figure_10.png)
 <figcaption> Figure 10: Experimental validation of in silico predicted mutations that disrupt CERK1-AvrPtoB interaction.</figcaption>
 </figure>
+
+**Conclusion:** The interaction between AvrPtoB and CERK1 were successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
+
 
 
 
