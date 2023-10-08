@@ -119,6 +119,11 @@ To validate our predictions, we ran a Y2H assay in both forward and reverse dire
 **Conclusion:** The interaction between AvrPtoB and CERK1 were successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
 
 
+## _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana
+
+Loss of interaction with AvrPtoB can be accompanied by loss of kinase activity. This concern is based on the site-directed mutagenesis analysis of AvrPtoB-BAK1 interaction, where many BAK1 mutants that lost interaction with AvrPtoB also lost their kinase activities (Cheng et al., 2011).
+
+For CERK1, we found that two frequently used kinase-dead mutants, D441V and K350N, either lost or exhibited reduced interaction with AvrPtoB, respectively (Fig. 11). This result suggested that CERK1’s kinase activity and its interaction with AvrPtoB might be also closely correlated. Consequently, there was a need for a screening method, able to efficiently detect unimpaired CERK1 kinase activity.
 
 
 <figure markdown>
@@ -127,3 +132,39 @@ To validate our predictions, we ran a Y2H assay in both forward and reverse dire
 </figcaption>
 </figure>
 
+**Aim:** Develop an efficient screening approach to check the functionality of CERK1 variants in plants.
+
+To screen for CERK1 variants that retained their kinase activities, we used the fact that overexpression of functional CERK1 in Nicotiana benthamiana leads to cell death (Pietraszewska-Bogiel et al., 2013; Suzuki et al., 2018). To this end, CERK1 variants are transiently expressed in wild-type N. benthamiana under a strong and constitutive 35S promoter. Those variants whose transient expression leads to a cell death phenotype should retain the kinase activity (Figure 12).
+
+<figure markdown>
+![Figure12](Result_figures/Figure_12.png)
+<figcaption> Figure 12. The assay used to screen for CERK1 variants that retain kinase activity, which is based on overexpression of CERK1 variants and observation of cell death phenotype. “3 dpi” means “three days after infiltration”.
+</figcaption>
+</figure>
+
+We initially tested our system using the wildtype CERK1 and CERK1D441V one of the kinase-dead variants which also lost its interaction with AvrPtoB. As expected, the wildtype CERK1 showed the cell death phenotype, while a kinase-dead mutant (D441V) did not (Figure 13). Unfortunately, due to time constraints, we weren’t able to test any of the variants obtained using either the directed evolution or site-directed mutagenesis.
+
+<figure markdown>
+![Figure13](Result_figures/Figure_13.png)
+<figcaption> Figure 134  Expression of wild-type CERK1 and not the D441V kinase-dead mutant caused cell death in N. benthamiana. (Please ignore the holes on the leaves. They are just because we took some leaf discs.)
+</figcaption>
+</figure>
+
+Active CERK1 variants will be subjected to a second round of in planta screening designed to screen for real AvrPtoB-resistant CERK1 variants (Figure 14). This round of screening will be conducted using a N. benthamiana line which doesn’t produce its native CERK1 (NbCERK1). This was achieved through virus-induced gene silencing (VIGS). These silenced plants produce no CERK1, so we are able to express and test our CERK1 variants in them. Our CERK1 variants will be expressed using the native promoter (ProCERK1), ensuring a low enough expression level to avoid cell death, but high enough to result in a measurable ROS burst in response to chitin treatment. At the same time, AvrPtoB will be also expressed using an estradiol-inducable promoter. By comparing the chitin-triggered ROS bursts of mock and estradiol treatment groups, we can determine whether the CERK1 variant is resistant to AvrPtoB (Figure 14).
+
+<figure markdown>
+![Figure14](Result_figures/Figure_14.png)
+<figcaption> Figure 14. The assay used to screen for AvrPtoB-resistant CERK1 variants in planta.
+</figcaption>
+</figure>
+
+Once again, time constraints did not allow us to test variants, but we were able to show that we had successfully silenced the native CERK1 genes. We did this by performing a ROS burst assay, where the silenced plants showed no response to chitin when compared to non-VIGS plants (Figure 15).
+
+
+<figure markdown>
+![Figure15](Result_figures/Figure_15.png)
+<figcaption> Figure 15. Successful silencing of native CERK1 of N. benthamiana using VIGS.
+</figcaption>
+</figure>
+
+**Conclusion:** We successfully designed a two-round screening approach to rapidly screen for functional and AvrPtoB-resistant CERK1 variants in plants.
