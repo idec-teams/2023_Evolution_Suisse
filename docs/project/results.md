@@ -267,6 +267,7 @@ These reporter strains have been already successfully used in our research to dr
 In the future, we will run a rY2H assay in strains carrying both _Ura3_ and fluorescent reporter genes, so that we can directly pick colonies from 5-FOA plates to measure to what extent the interaction is disrupted.
 
 ## References:
+
 P. Dumas, M. Bergdoll, C. Cagnon, and J. M. Masson, Crystal structure and site-directed mutagenesis of a bleomycin resistance protein and their significance for drug sequestering. EMBO J, vol. 13, pp. 2483–2492, (1994). DOI: https://10.1002/J.1460-2075.1994.TB06535.X
 
 M. Tominaga, K. Nozaki, D. Umeno, J. Ishii, and A. Kondo, Robust and flexible platform for directed evolution of yeast genetic switches. Nature Communications, vol. 12, pp. 1–13, (2021). DOI: https://10.1038/s41467-021-22134-y
