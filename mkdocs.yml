@@ -23,6 +23,7 @@ plugins:
 markdown_extensions:
   - footnotes
   - md_in_html
+  - tables
 
   # For MathJax
   - pymdownx.arithmatex:
@@ -62,4 +63,5 @@ nav:
       - Protocols: documentation/protocols.md
       - Lab Notebook: documentation/notebook.md
       - Download Report: files/report.pdf
+      - Download Supplimentary Data: files/supplement.pdf
   - Team: team.md
