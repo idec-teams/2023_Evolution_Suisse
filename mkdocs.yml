@@ -48,6 +48,9 @@ nav:
   - Home: index.md
   - Team: team.md
   - Project:
+
+markdown_extensions:
+  - footnotes
       - Background: project/background.md
       - Results: project/results.md
   - Documentation:
