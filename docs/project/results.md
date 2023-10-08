@@ -147,7 +147,6 @@ To validate our predictions, we ran a Y2H assay in both forward and reverse dire
 
 **Conclusion:** The interaction between AvrPtoB and CERK1 was successfully predicted in silico， generating seven mutations potentially able to disrupt the interaction without affecting CERK1’s function. Y2H assay confirms that five of them can disrupt the interaction. 
 
-
 ## _In planta_ screening of AvrPtoB-resistant CERK1 variants that retain kinase activity via transient expression in N. benthamiana
 
 Loss of interaction with AvrPtoB can be accompanied by loss of kinase activity. This concern is based on the site-directed mutagenesis analysis of AvrPtoB-BAK1 interaction, where many BAK1 mutants that lost interaction with AvrPtoB also lost their kinase activities (Cheng et al., 2011).
