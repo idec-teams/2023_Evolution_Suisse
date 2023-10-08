@@ -1,23 +1,87 @@
 # Engineering Pathogen-Resistant Crops using Directed Evolution
 
-We use directed evolution to disrupt interaction between pathogenic proteins and plants’ immune system.
 
 ## Challenge
 
-Worldwide, 20-40% of crop yield is lost to pests, costing the global economy a combined $290 billion per year. Pesticides are currently the most commonly used protection mechanism, but they have a huge negative impact on the environment and pose health risks to humans.
+Crop diseases caused by pathogens and pests pose a global burden on agriculture, reducing harvest by up to 40% [^1], ultimately impacting the economy and environment[^2][^3]. 
+Currently, pesticides are used to protect crops, however, they negatively impact the  environment and pose health risks to humans[^4]. Therefore, developing  disease-resistant crops remains a challenge that demands innovative solutions and  research.  
+
+Like humans, plants also have a built in immune system to protect themselves from pathogens. This defence system relies on proteins called Pattern Recognition Receptors (PRRs), the security guards of plant cells. They perceive certain molecular patterns associated with pathogens, and pull the alarm by initiating a series of immune responses [^5].
+
+To counteract the plant's immune system, pathogens can introduce proteins called effectors into the plant cells to inhibit PRRs (as well as other immune proteins) and even degrade them, via protein-protein interactions[^6].
 
 <img src="img/transp.png" align="right" width="100" height="250"/><img src="img/evolution_high_level.png" align="right" width="250" height="250"/><img src="img/transp.png" align="right" width="100" height="250"/>
+
+To counteract effectors, plants can elude the attacks by effectors, by generating mutations to disrupt the protein-protein interactions between effectors and the targets.
+
+The endless arms race between plants and pathogens is a perfect example of evolution. Due to the slow growth of plants and the fast proliferation of pathogens, plants evolve much slower than pathogens. Therefore, it’s difficult for us to search for resistant plants from nature, and pathogens can easily overcome plant’s resistance. 
+
 ## Our Approach
-We will disrupt the pathogen-plant interaction between a pathogen recognition receptor (PRR) of the plant immune system and a bacterial effector protein that supresses the PRR. Interaction will be disrupted using directed evolution. We will generate a library of PRR mutants and select for reduced binding affinity using a modified yeast two-hybrid screen. Best mutants will be transiently expressed in plant cells for the final validation.
+To help plants win the arms race, we are employing a Nobel Prize-winning technology, Directed Evolution, which enables millions of years of evolution to be achieved in the lab in one week. We aim to use directed evolution to disrupt the PRR-effector interaction, creating PRRs resistant to effectors’ attacks.
 
-<p>&nbsp;</p><p>&nbsp;</p>
+## Our workflow:
 
-<img src="img/transp.png" align="left" width="100" height="250"/><img src="img/model.gif" align="left" width="250" height="250"/><img src="img/transp.png" align="left" width="100" height="250"/>
+1. Reconstruct/simulate PRR-effector interaction in yeast cells and computer models. 
 
-## Expected Result
-Identified mutations can be introduced into plants using CRISPR-based precision gene editing. This way, it is possible to generate non-transgenic strains, which don’t contain any mutations or genes that couldn’t occur in the plant naturally. Under the new EU regulation such plants won’t be considered GMOs in the future.  
+2. Use Reverse Yeast Two-Hybrid and Machine learning to select/screen for PRR variants carrying interaction-disrupting mutations. 
+
+3. Test the PRR variants in plants to screen for mutations preserving PRR’s functions.
+
+4. Introduce qualified mutations to crops using precise genome editing technology, resulting in non-GMO crops with enhanced disease resistance.
+
+
+
+<div style="clear: both;">
+    <img src="img/model.gif" style="float: right; margin-left: 10px;" width="250" height="250"/>
+    <img src="img/transp.png" style="float: left; margin-right: 10px;" width="100" height="250"/>
+
+<div style="text-align: left;">
+    <h2>Key achievements:</h2>
+    <ul>
+        <li>Pioneered using directed evolution technology to create disease resistant crops</li>
+        <li>Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors</li>
+        <li>Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions. <a href="results.md">Results</a></li>
+        <li>Identified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design. <a href="results.md">Results</a></li>
+        <li>Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants. <a href="results.md">Results</a></li>
+    </ul>
+</div>
+
+We also:
+
+Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins. (link to results)
+
+Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions. (link to results)
+
+
 
 <p>&nbsp;</p><p>&nbsp;</p>
 
 <img src="img/iDEC Team Flyer.jpg"/>
+
+
+References
+[^1]: FAO on behalf of the IPPC Secretariat, Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry and ecosystems. (2021). 
+DOI: https://doi.org/10.4060/cb4769en
+
+[^2]: P. M. M. Martins, M. V. Merfa, M. A. Takita, and A. A. De Souza, Persistence in
+phytopathogenic bacteria: Do we know enough?. Frontiers in Microbiology, vol. 9,
+Frontiers Media S.A., (2018).
+DOI:  https://doi.org/10.3389/fmicb.2018.01099
+
+
+[^3]: S. Savary et al., Crop health and its global impacts on the components of food security. Food Secur., vol. 9, no.2, pp. 311–327, (2017).
+DOI: https://doi.org/10.1007/s12571-017-0659-1
+
+ 
+[^4]: V. M. Pathak et al., Current status of pesticide effects on environment, human health and its eco-friendly management as bioremediation: A comprehensive review. Frontiers in Microbiology, vol. 13., (2022).
+DOI: https://doi.org/10.3389/fmicb.2022.962619
+
+ 
+[^5]: F. Boutrot and C. Zipfel, Function, Discovery, and Exploitation of Plant Pattern Recognition
+Receptors for Broad-Spectrum Disease Resistance. Annu Rev Phytopathol, 28617654, (2017).
+DOI: https://doi.org/10.1146/annurev-phyto-080614-120106
+
+[^6]: A. P. Macho and C. Zipfel, Targeting of plant pattern recognition receptor-triggered immunity by bacterial type-III secretion system effectors. Current Opinion in Microbiology, vol. 23, pp. 14–22, (2015).
+DOI: https://doi.org/10.1016/j.mib.2014.10.009
+
 
