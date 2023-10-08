@@ -16,4 +16,28 @@ h2 {
   font: "Urbanist Bold";
   color: #1a1a1a;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  gap: 48px;
+  justify-content: center;
+}
+
+.image-item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-bottom: 16px;  /* Adjust the value as needed */
+}
+.image-item img {
+  width: 300px;
+  height: 375px;
+  object-fit: cover;
+}
+
+.image-item span {
+  display: block;
+  text-align: center;
+}
+
+
   

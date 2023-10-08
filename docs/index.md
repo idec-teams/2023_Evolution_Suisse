@@ -37,11 +37,12 @@ To help plants win the arms race, we are employing a Nobel Prize-winning technol
 ## Key achievements:
  * Pioneered using directed evolution technology to create disease resistant crops
  * Proposed a novel strategy to enhance plant immunity by engineering plant pattern recognition receptors to elude attacks by effectors
- * Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions. [Results](results.md)
- * dentified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design. [Results](results.md)
- * Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants. [Results](results.md)
+ * Developed TRUST-rY2H, a novel reverse yeast two-hybrid system (rY2H) to disrupt protein-protein interactions. 
+ * dentified mutations disrupting CERK1-AvrPtoB interaction using TRUST-rY2H and machine learning-based computational design.
+ * Designed a screening method to rapidly test the activity and AvrPtoB resistance of CERK1 variants.
 
 We also:
+
  * Developed a reverse assay for split-ubiquitin membrane protein yeast two-hybrid (MYTH) to disrupt the interaction between membrane proteins. (link to results)
  * Developed fluorescent reporters for conventional Y2H and MYTH to precisely measure the strength of protein-protein interactions. (link to results)
 
