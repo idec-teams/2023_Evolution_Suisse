@@ -1,4 +1,4 @@
-site_name: iDEC 2023 | Evolution Suisse
+site_name: Evolution Suisse
 
 theme:
   name: material
@@ -52,8 +52,8 @@ copyright: Copyright &copy; 2023 iDEC. CC-BY-4.0 | The International Directed Ev
 
   
 nav:
+  - Overview: index.md
   - Project:
-      - Overview: index.md
       - Background: project/background.md
       - Results: project/results.md
       - Outlook: project/outlooks.md

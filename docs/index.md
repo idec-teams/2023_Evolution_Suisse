@@ -14,6 +14,7 @@ To counteract effectors, plants can elude the attacks by effectors, by generatin
 
 The endless arms race between plants and pathogens is a perfect example of **evolution**. Due to the slow growth of plants and the fast proliferation of pathogens, plants evolve much slower than pathogens. Therefore, it’s difficult for us to search for resistant plants from nature, and pathogens can easily overcome plant’s resistance. 
 
+![Our Approach](img/evolution_high_level.png){align=left style="height:250px;width:250px"}
 ## Our Approach
 To help plants win the arms race, we are employing a Nobel Prize-winning technology, **Directed Evolution**, which enables millions of years of evolution to be achieved in the lab in one week. We aim to use directed evolution to **disrupt the PRR-effector interaction**, creating PRRs resistant to effectors’ attacks.
 
