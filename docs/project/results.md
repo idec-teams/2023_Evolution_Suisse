@@ -91,7 +91,6 @@ We then redid the assay by plating the yeast that have just been transformed wit
 <figcaption>Figure 8. When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
 </figure>
 
-
 We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
 
 Table 1. Comparison of TRUST-rY2H to previous methods 
@@ -114,7 +113,11 @@ The TRUST-rY2H is ready. Now it’s time to use it to achieve our goal, disrupti
 
 We performed mutagenesis on CERK1 using error-prone PCR, and subjected the mutagenesis library to TRUST-rY2H to select for mutations that disrupt CERK1-AvrPtoB interaction. For comparison, we also run a classic rY2H in parallel, which is without an anti-truncation system. Ten colonies from each screen were sequenced to identify mutations (Table 2). Three out of ten colonies from TRUST-rY2H were false positives with nonsense mutations (stop codons), while the classic rY2H screen produced two such false positives. Interestingly, only two mutations (S444F and G461R) were located in or close to the predicted interaction interface. Other mutations were dispersed throughout the whole protein sequence, suggesting a diverse array of mutations impacting the interaction beyond the predicted interaction surface.
 
-TABLE
+**Table 2.** Summary of CERK1 variants obtained from the reverse yeast two-hybrid assays. Each line shows mutations found in a single epPCR colony. Notation R415G means R to G substitution in 415th amino acid. Star denotes a stop codon. Mutations in the interaction regions are underlined.  
+| **Classic rY2H without anti-truncation** | **TRUST-rY2H** |
+| --- | --- | 
+|S510P <br> L398P <br> G502E <br> S444F <br> G461R <br> F267L <br> L363Q <br> G569R <br> C381W|R415G <br> A521T <br> Y337C <br> F533S <br> F359S <br> K349R|
+|W412* <br> L388*|K495R <br> K345* <br> Q451* <br> E575E <br> K364*|
 
 It seems that TRUST-rY2H underperforms the classic rY2H, however, it is noteworthy that the truncation rate in the classic rY2H (20%) is far lower than reported (>97%) (Barr et al., 2004, Gray et al., 2007). One possibility is that some of the hits are false positives. This can be because of mutations disrupting DBD, promoter, and Ura3 gene, which can also lead to a 5-FOA-resistant phenotype. Therefore, we need to confirm these mutations by performing a round of forward Y2H. Another possibility is that CERK1-AvrPtoB is sensitive to mutations, i.e., among all the potential interaction-disruption mutations, there are many more non-truncation mutations than truncation mutations. Such results could also be due to stochastic colony picking and requires more colonies to achieve statistical robustness.
 
