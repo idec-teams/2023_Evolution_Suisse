@@ -33,17 +33,17 @@ We decided to tackle these problems using directed evolution to evolve plant rec
 
 <figure markdown>
 ![Figure3](Background_figures/Kiwi.png)
-<figcaption>Figure 3. *S. Loreti, Bacterial cancer of kiwifruit, 2018.*</figcaption>
+<figcaption>Figure 3. S. Loreti, Bacterial cancer of kiwifruit, 2018.</figcaption>
 </figure>
 
 <figure markdown>
 ![Figure4](Background_figures/Tomato_1.png)
-<figcaption>Figure 4. *Gerald Holmes, Tomato bacterial speck, 2000.*</figcaption>
+<figcaption>Figure 4. Gerald Holmes, Tomato bacterial speck, 2000.</figcaption>
 </figure>
 
 <figure markdown>
 ![Figure5](Background_figures/Tomato_2.png)
-<figcaption>Figure 5. *Greg Martin, A tomato with bacterial speck, 2016.*</figcaption>
+<figcaption>Figure 5. Greg Martin, A tomato with bacterial speck, 2016.</figcaption>
 </figure>
 
 
