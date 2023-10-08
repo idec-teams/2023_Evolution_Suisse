@@ -42,10 +42,11 @@ hide:
     <span> Sasha <br> Getting millions in funding</span>
   </div>
 
-  <div class="image-item">
+Cyril Zipfel
+  <!--<div class="image-item">
     <img src="https://idec-teams.github.io/2023_Evolution_Suisse/img/team/cyril_zipfel.jpg" alt="Cyril" style="height:375px;width:300px">
     <span> Cyril Zipfel </span>
   </div>
 </div>
-
+<--
 
