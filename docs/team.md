@@ -1,29 +1,5 @@
 Our team
-<p align="center">
-  <img src="img/team/fotoshoot_reduced/Gabriel.jpg" width="300" height = "375" title="Gabriel">
-  <img src="img/team/fotoshoot_reduced/Julien.jpg" width="300" height = "375" title="Julien">
-  <img src="img/team/fotoshoot_reduced/Kian.jpg" width="300" height = "375" title="Kian">
-</p>
+  <img src="img/team/fotoshoot_reduced/Gabriel.jpg" width="300" height = "375" title="Gabriel"/>
+  <img src="img/team/fotoshoot_reduced/Julien.jpg" width="300" height = "375" title="Julien"/>
+  <img src="img/team/fotoshoot_reduced/Kian.jpg" width="300" height = "375" title="Kian"/>
 
-
-<p align="center">
-    <em>snorts isoleucine for breakfast</em>
-    <em>snorts leucine for breakfast</em>
-    <em>snorts valine for breakfast</em>
-</p>
-
-
-
-<table class="images" width="100%"  style="border:0px solid white; width:100%;">
-    <tr style="border: 0px;">
-        <td width="33%" style="border:0px; width:33.33%">
-            <img src="img/team/fotoshoot/Gabriel.jpg" width="300" height = "375" title="hover text">
-        </td>
-        <td width="33%" style="border:0px; width:33.33%">
-            <img src="img/team/fotoshoot/Julien.jpg" width="300" height = "375" title="hover text">
-        </td>
-        <td width="33%" style="border:0px; width:33.33%">
-            <img src="img/team/fotoshoot/Kian.jpg" width="300" height = "375" title="hover text">
-        </td>
-    </tr>
-</table>
