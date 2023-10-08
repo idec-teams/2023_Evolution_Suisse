@@ -6,8 +6,8 @@ theme:
   favicon: img/Logo Transparent.png
 
   palette:
-    primary: light blue
-    accent: blue
+    primary: light green
+    accent: green
 
   features:
     - navigation.sections
