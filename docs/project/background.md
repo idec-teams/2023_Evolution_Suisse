@@ -19,7 +19,7 @@ For these reasons, developing crops with enhanced resistance to pathogens is ind
 ## Plant immunity
 <figure markdown>
 ![Figure2](Background_figures/Fig_1_A_1.png)
-<figcaption>Figure 2. Placehodler name</figcaption>
+<figcaption>Figure 2. Schematic representation of molecular events in a plant cell harbouring an AvrPtoB-susceptible (left part) and an AvrPtoB-resistant CERK1 (right part).</figcaption>
 </figure>
 
 
