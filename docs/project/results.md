@@ -22,54 +22,55 @@ I would present MYTH adaptation right bellow ours just to keep them in the same 
 
 
 <figure markdown>
-![Figure1](Report_figures/Figure_1.png)
-<figcaption> </figcaption>
+![Figure1](Result_figures/Figure_1.png)
+<figcaption> Figure 1. CERK1 and AvrPtoB strongly interact in the Y2H assay only when fused to AD and DBD, respectively.</figcaption>
 </figure>
 
 
 <figure markdown>
-![Figure2](Report_figures/Figure_2.png)
-<figcaption> </figcaption>
+![Figure2](Result_figures/Figure_2.png)
+<figcaption>Figure 2.  Transient expression of AvrPtoB attenuates the chitin-triggered ROS burst in N. benthamiana. </figcaption>
 </figure>
 
 <figure markdown>
-![Figure3](Report_figures/Figure_3.png)
-<figcaption> </figcaption>
+![Figure3](Result_figures/Figure_3.png)
+<figcaption> Figure 3. Schematic explanation of the TRUST-rY2H system (upper panel) and its behaviour depending on the interaction state and selective media used (lower panels).</figcaption>
 </figure>
 
 <figure markdown>
-![Figure4](Report_figures/Figure_4.png)
-<figcaption> </figcaption>
+![Figure4](Result_figures/Figure_4.png)
+<figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)3 linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
 <figure markdown>
-![Figure5](Report_figures/Figure_5.png)
-<figcaption> </figcaption>
+![Figure5](Result_figures/Figure_5.png)
+<figcaption>Figure 5. Compared to other self-cleaving peptides, the E2A peptide causes minimal disruption of the CERK1-AvrPtoB interaction.
+ </figcaption>
 </figure>
 
 <figure markdown>
-![Figure6](Report_figures/Figure_6.png)
-<figcaption> </figcaption>
+![Figure6](Result_figures/Figure_6.png)
+<figcaption>Figure 6. Differences between sample means in the flow-cytometry data were assessed using one-way ANOVA with Dunnett’s posthoc test; <0.01 (*), <0.0001(****). </figcaption>
 </figure>
 
 <figure markdown>
-![Figure7](Report_figures/Figure_7.png)
-<figcaption> </figcaption>
+![Figure7](Result_figures/Figure_7.png)
+<figcaption> Figure 7. The addition of E2A-BleoR is not sufficient to select against truncating mutations when colonies were selected for more than  48h post transformation.</figcaption>
 </figure>
 
 <figure markdown>
-![Figure8](Report_figures/Figure_8.png)
-<figcaption> </figcaption>
+![Figure8](Result_figures/Figure_8.png)
+<figcaption>Figure 8: When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
 </figure>
 
 <figure markdown>
-![Figure9](Report_figures/Figure_9.png)
-<figcaption> </figcaption>
+![Figure9](Result_figures/Figure_9.png)
+<figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
 </figure>
 
 <figure markdown>
-![Figure10](Report_figures/Figure_10.png)
-<figcaption> </figcaption>
+![Figure10](Result_figures/Figure_10.png)
+<figcaption> Figure 10: Experimental validation of in silico predicted mutations that disrupt CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
 
