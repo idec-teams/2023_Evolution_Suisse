@@ -6,7 +6,7 @@ With a rising global population and greater weather variability due to climate c
 
 <figure markdown>
 ![Figure1](Background_figures/Temperatures_rising_figure.png)
-<figcaption>**Figure 1.** IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry, and ecosystems.</figcaption>
+<figcaption>Figure 1. IPPC Secretariat. 2021. Scientific review of the impact of climate change on plant pests – A global challenge to prevent and mitigate plant pest risks in agriculture, forestry, and ecosystems.</figcaption>
 </figure>
 
 
@@ -19,7 +19,7 @@ For these reasons, developing crops with enhanced resistance to pathogens is ind
 ## Plant immunity
 <figure markdown>
 ![Figure2](Background_figures/Fig_1_A_1.png)
-<figcaption>**Figure 2.** Placehodler name</figcaption>
+<figcaption>Figure 2. Placehodler name</figcaption>
 </figure>
 
 
@@ -33,28 +33,18 @@ We decided to tackle these problems using directed evolution to evolve plant rec
 
 <figure markdown>
 ![Figure3](Background_figures/Kiwi.png)
-<figcaption>**Figure 3.** *S. Loreti, Bacterial cancer of kiwifruit, 2018.*</figcaption>
+<figcaption>Figure 3. *S. Loreti, Bacterial cancer of kiwifruit, 2018.*</figcaption>
 </figure>
 
 <figure markdown>
 ![Figure4](Background_figures/Tomato_1.png)
-<figcaption>**Figure 4.** *Gerald Holmes, Tomato bacterial speck, 2000.*</figcaption>
+<figcaption>Figure 4. *Gerald Holmes, Tomato bacterial speck, 2000.*</figcaption>
 </figure>
 
 <figure markdown>
 ![Figure5](Background_figures/Tomato_2.png)
-<figcaption>**Figure 5.** *Greg Martin, A tomato with bacterial speck, 2016.*</figcaption>
+<figcaption>Figure 5. *Greg Martin, A tomato with bacterial speck, 2016.*</figcaption>
 </figure>
-
-![Picture4](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/bee7d26b-3e77-4d95-9161-d289a5964811)
-
-*S. Loreti, Bacterial cancer of kiwifruit, 2018.*
-![Picture5](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/c25c3267-5ef4-4926-8d28-b74485deda13)
-
-*Gerald Holmes, Tomato bacterial speck, 2000.*
-
-![Picture6](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/37188856-4bd6-46dc-a219-6b09abd853cb)
-*Greg Martin, A tomato with bacterial speck, 2016.*
 
 
 
