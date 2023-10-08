@@ -46,7 +46,16 @@ We decided to tackle these problems using directed evolution to evolve plant rec
 <figcaption>Figure 5. Greg Martin, A tomato with bacterial speck, 2016.</figcaption>
 </figure>
 
+# Yeast two-hybrid
+Yeast two-hybrid (Y2H) is the oldest and one of the most popular genetic methods used to identify protein-protein interactions in live yeast cells (Fields & Song, 1989). This method takes advantage of the fact that transcription factors are modular in nature. Namely, they contain distinct activation (AD) and DNA-binding domains (DBD), responsible for activating transcription and binding promoter DNA sequences, respectively. One can exploit this by fusing AD to protein A (also called prey in the field) and DBD to protein B (also called bait). In case proteins A and B interact with each other, they will bring the AD and DBD close to one another, allowing for them to activate the transcription of reporter genes (Fig. something right). To make sure this system expresses the correct gene, reporter genes used contain a DBD-binding motif (also called upstream activating sequence or UAS) within its promoter sequence. Reporter genes are genes whose transcription generates easily detectable results. For example, the expression of LacZ normally causes white yeast colonies to turn blue when grown on media containing X-gal, while the expression of Ura3 allows yeast to grow on media lacking uracil, an essential metabolite. What we described is the so-called forward direction in the Y2H system which is, again, designed to detect protein-protein interactions.
 
+<figure markdown>
+![Figure6](Background_figures/Y2H_explained_supp.png)
+<figcaption>Figure 6. Schematic representation of the forward and reverse directions in the yeast two-hybrid assay</figcaption>
+</figure>
+
+# Reverse Y2H
+In theory, there is nothing preventing the use of a negative readout from the reporter gene as an indication of no interaction between two proteins (Fig. something left). It was precisely this thinking that led to the development of the first reverse yeast two-hybrid (rY2H) method, aimed at selecting against protein-protein interactions (doi: 10.1093/nar/24.17.3341). The main change in the system was the use of a counterselectable reporter gene whose transcription and translation led to a toxic protein. As such, yeast that contained interacting proteins would die off, leaving only colonies harbouring non-interacting proteins. A final improvement merged the forward and reverse directions in a single system using the Ura3 reporter gene (doi: 10.1073/pnas.93.19.10315). On one hand, in a medium lacking uracil, Ura3 transcription is essential for growth. On the other hand, if one adds 5’-fluoroorotic acid (5FOA) to the medium, Ura3 transcription transforms it into a toxic metabolite, killing the cell. Therefore, one can plate the same yeast strain, on media lacking uracil to select for protein-protein interactions or on media with 5FOA to select against them. Nonetheless, existing rY2H systems still have numerous limitations, many of which we cover in the next section and in our [results section](/results.md).
 
 
 
