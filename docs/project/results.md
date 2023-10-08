@@ -53,12 +53,12 @@ As mentioned, the interaction between DBD-CERK1 and AD-AvrPtoB cannot be seen wh
 ![Figure3](Result_figures/Figure_3.png)
 <figcaption> Figure 3. Schematic explanation of the TRUST-rY2H system (upper panel) and its behaviour depending on the interaction state and selective media used (lower panels).</figcaption>
 </figure>
-We originally fused the BleoR to CERK1 by using a (GS)<sub>3</sub>sub> linker, a long stretch of glycine and serine residues, but this approach disrupted both the CERK1-AvrPtoB interaction, as well as BleoR anti-zeocin activity. This mutual interference was almost certainly due to the proximity of BleoR and the CERK1-AvrPtoB interaction complex. We hypothesised that this issue could be solved by using a self-cleaving peptide, E2A, which would separate CERK1 and BleoR once they had been translated (see **Fig. 3** for a schematic representation). A rY2H assay (**Fig. 4**) shows that the version with the (GS)<sub>3</sub>sub> linker, compared to the one using E2A, clearly exhibited worse growth on -Ura and +Zeocin plates, indicating the lack of CERK1-AvrPtoB interaction and BleoR activity, respectively. This confirmed that using E2A considerably reduced the interference BleoR and the CERK1-AvrPtoB complex had on each other. 
+We originally fused the BleoR to CERK1 by using a (GS)<sub>3</sub> linker, a long stretch of glycine and serine residues, but this approach disrupted both the CERK1-AvrPtoB interaction, as well as BleoR anti-zeocin activity. This mutual interference was almost certainly due to the proximity of BleoR and the CERK1-AvrPtoB interaction complex. We hypothesised that this issue could be solved by using a self-cleaving peptide, E2A, which would separate CERK1 and BleoR once they had been translated (see **Fig. 3** for a schematic representation). A rY2H assay (**Fig. 4**) shows that the version with the (GS)<sub>3</sub> linker, compared to the one using E2A, clearly exhibited worse growth on -Ura and +Zeocin plates, indicating the lack of CERK1-AvrPtoB interaction and BleoR activity, respectively. This confirmed that using E2A considerably reduced the interference BleoR and the CERK1-AvrPtoB complex had on each other. 
 
 
 <figure markdown>
 ![Figure4](Result_figures/Figure_4.png)
-<figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)<sub>3</sub>sub> linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
+<figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)<sub>3</sub> linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
 We also tested whether other self-cleaving peptides, O2A and P2A, could do a better job. However, we found E2A to be the most effective (**Fig. 5**).
