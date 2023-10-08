@@ -1,6 +1,6 @@
 # Results
 
-##AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses
+## AvrPtoB interacts with CERK1 and impairs CERK1-mediated immune responses
 
 Effectors often target PRRs, the CERK1-AvrPtoB interaction seems to be an exception. To be able to disrupt the interaction, we first need to verify that AvrPtoB indeed targets CERK1 and analyse the effect of AvrPtoB on the CERK1 mediate immune response.
 
@@ -12,7 +12,7 @@ A Y2H plate assay was performed using AvrPtoB and CERK1 fused to both DBD and AD
 <figcaption> Figure 1. CERK1 and AvrPtoB strongly interact in the Y2H assay only when fused to AD and DBD, respectively.</figcaption>
 </figure>
 
-To follow this up, we wanted to ensure that AvrPtoB did indeed impair the immune response of plants. We treated plants with chitin to simulate a fungal infection, triggering the CERK1-mediated immune response. The intensity of the immune response can be quantified by measuring the reactive oxygen species (ROS) burst following the chitin treatment (Fig. 2). When we transiently transformed the plants with an estradiol-inducible AvrPtoB DNA construct (XVE/OlexA-AvrPtoB) and the treated the plants with estradiol, the ROS burst was significantly reduced, indicating that AvrPtoB indeed impairs CERK1’s functions.
+To follow this up, we wanted to ensure that AvrPtoB did indeed impair the immune response of plants. We treated plants with chitin to simulate a fungal infection, triggering the CERK1-mediated immune response. The intensity of the immune response can be quantified by measuring the reactive oxygen species (ROS) burst following the chitin treatment (**Fig. 2**). When we transiently transformed the plants with an estradiol-inducible AvrPtoB DNA construct (XVE/OlexA-AvrPtoB) and the treated the plants with estradiol, the ROS burst was significantly reduced, indicating that AvrPtoB indeed impairs CERK1’s functions.
 
 <figure markdown>
 ![Figure2](Result_figures/Figure_2.png)
@@ -21,21 +21,39 @@ To follow this up, we wanted to ensure that AvrPtoB did indeed impair the immune
 
 **Conclusion:** AvrPtoB binds CERK1 and impairs CERK1-mediated immune responses. However, the fusion of DBD and AD in the Y2H seems to affect the interaction. This can be seen as in one sense, the interaction is strong, and in the other sense there is little growth compared to negative controls. This indicates a false negative, and a need for a more robust system.
 
+
+## Development of TRUST-rY2H, a novel reverse yeast two-hybrid system
+
+Original rY2H methods are unable to distinguish between informative interaction-disruption mutations, and false positives resulting from truncating mutations. Unfortunately, the systems that do resist truncations, such as the RD2H, are rigid in their design, not allowing the exchange of DBD and AD between the proteins of interest (Link to section on background). This lack of flexibility can be detrimental when analysing certain protein-protein interactions (PPI), as the DBD or AD can hinder the interaction, leading to false-negative results as already seen in our [initial experiments](##Development of TRUST-rY2H, a novel reverse yeast two-hybrid system).
+
+**Aim:** Develop a novel rY2H system, capable of selecting against truncating mutations and flexible with AD and DBD fusions, to disrupt the CERK1-AvrPtoB interaction.
+
+As mentioned, the interaction between DBD-CERK1 and AD-AvrPtoB cannot be seen when DBD and AD are switched between the proteins. Current systems for truncation-resistant Y2H mandate that the protein undergoing mutagenesis is fused to AD. This meant we would not be able to test CERK1 for truncation within current systems. To solve this problem, we devised a system that would fuse BleoR, a gene conferring resistance to the antibiotic zeocin, to CERK1 variants. This would mean that BleoR would only be expressed if the CERK1 variant was complete, i.e. not truncated, and therefore the cells would be able to grow in zeocin-containing media (**Fig. 3**).
+
 <figure markdown>
 ![Figure3](Result_figures/Figure_3.png)
 <figcaption> Figure 3. Schematic explanation of the TRUST-rY2H system (upper panel) and its behaviour depending on the interaction state and selective media used (lower panels).</figcaption>
 </figure>
+We originally fused the BleoR to CERK1 by using a (GS)3 linker, a long stretch of glycine and serine residues, but this approach disrupted both the CERK1-AvrPtoB interaction, as well as BleoR anti-zeocin activity. This mutual interference was almost certainly due to the proximity of BleoR and the CERK1-AvrPtoB interaction complex. We hypothesised that this issue could be solved by using a self-cleaving peptide, E2A, which would separate CERK1 and BleoR once they had been translated (see **Fig. 3** for a schematic representation). A rY2H assay (**Fig. 4**) shows that the version with the (GS)3 linker, compared to the one using E2A, clearly exhibited worse growth on -Ura and +Zeocin plates, indicating the lack of CERK1-AvrPtoB interaction and BleoR activity, respectively. This confirmed that using E2A considerably reduced the interference BleoR and the CERK1-AvrPtoB complex had on each other. 
+
 
 <figure markdown>
 ![Figure4](Result_figures/Figure_4.png)
 <figcaption> Figure 4. Using an E2A self-cleaving peptide instead of the (GS)3 linker reduces the negative impact the BleoR anti-truncation system has on the CERK1-AvrPtoB interaction.</figcaption>
 </figure>
 
+We also tested whether other self-cleaving peptides, O2A and P2A, could do a better job. However, we found E2A to be the most effective (**Fig. 5**).
+
+
 <figure markdown>
 ![Figure5](Result_figures/Figure_5.png)
 <figcaption>Figure 5. Compared to other self-cleaving peptides, the E2A peptide causes minimal disruption of the CERK1-AvrPtoB interaction.
  </figcaption>
 </figure>
+
+We also used a fluorescent reporter strain (See LINK to reporter section for more details on the flow cytometry result) to precisely quantify the effects of different 2A peptides on CERK1-AvrPtoB interaction (**Fig. 6**). We got similar results as the plate assay, indicating that E2A is the best option.
+
+
 
 <figure markdown>
 ![Figure6](Result_figures/Figure_6.png)
@@ -47,15 +65,29 @@ To follow this up, we wanted to ensure that AvrPtoB did indeed impair the immune
 <figcaption> Figure 7. The addition of E2A-BleoR is not sufficient to select against truncating mutations when colonies were selected for more than  48h post transformation.</figcaption>
 </figure>
 
+Lastly, we wanted to test whether the E2A-BleoR anti-truncation strategy was capable of selecting against truncations in practice. To do this, we manually introduced a stop codon, as well as a 1-bp deletion to the DNA sequence CERK1. 
+
+Initially, we did a Y2H plate assay starting from colonies which have been grown for >48h post transformation (**Fig. 7**). Unfortunately, the result shows that our system wasn’t capable of successfully selecting against truncation mutations, as evidenced by yeast growth on zeocin-containing plates.
+
+
 <figure markdown>
 ![Figure8](Result_figures/Figure_8.png)
 <figcaption>Figure 8: When plated immediately post-transformation, truncation mutations are selected against by the BleoR anti-truncation system. </figcaption>
 </figure>
 
+We then redid the assay by plating the yeast that have just been transformed with the plasmids harbouring the Y2H system, as would be done in our directed evolution workflow (**Fig. 8**). This time, the truncated mutant showed notably less growth, implying that our system works. This is perhaps due to the leaky expression of BleoR, which might be caused by sequences in CERK1 which resemble canonical translation start sites (Monteuuis et al., 2019). Over time, the leaky expression could lead to the accumulation of BleoR, allowing even the truncated mutants to grow on zeocin-containing plates. To overcome this, we plan to introduce D25A mutation to BleoR to compromise its activity by ~ 50% (Dumas et al., 1994), which has been proven useful in counteracting leaky expression (Tominaga et al., 2021). 
+
+
 <figure markdown>
 ![Figure9](Result_figures/Figure_9.png)
 <figcaption>Prediction of AvrptoB-CERK1 binding complex from AlphaFold-Multimer and Colabfold. </figcaption>
 </figure>
+
+We coined this system TRUST-rY2H, a reverse yeast two-hybrid (rY2H) system that is Truncation-Resistant and Universal, using Self-cleavage peptide Technology (TRUST). We summarised the comparison of TRUST-rY2H to some of existing rY2H methods in Table 1.
+
+TABLE
+
+**Conclusion:** Fusing BleoR to proteins along with a self-cleaving peptide has minimal effect on the protein interaction and could, with further optimisation, provide adequate truncation resistance.
 
 <figure markdown>
 ![Figure10](Result_figures/Figure_10.png)
