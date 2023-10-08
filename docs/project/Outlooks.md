@@ -1,15 +1,13 @@
-Outlook
+# Outlook
 
 Real-world application of obtained mutations
 Multiple precise gene editing methods can be used to introduce effector-resistant mutations to PRRs in crops.
 
 There are three main technologies available to perform precise gene editing in plants, :
 
-Base editing (Hua et al., 2022)
-
-Prime editing (Li et al., 2022)
-
-Homology-directed repair (Chen et al., 2022)
+* Base editing (Hua et al., 2022)
+* Prime editing (Li et al., 2022)
+* Homology-directed repair (Chen et al., 2022)
 
 
 When choosing the methods, there are several considerations: whether this method is established or efficient in the target crop; whether this method can violate the regulations of gene-edited plants in certain countries.
@@ -20,23 +18,6 @@ Advantage and disadvantage of different gene-editing system
 
 
 ![Picture7](https://github.com/idec-teams/2023_Evolution_Suisse/assets/114056080/519ffb33-14e8-4742-ac5a-2c58b7d32e5a)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Loosening regulations and increasing public acceptance on gene-edited plants make our strategy feasible in the real-world agriculture
